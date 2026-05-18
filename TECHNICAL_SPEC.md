@@ -1,56 +1,135 @@
 # TECHNICAL_SPEC.md
 
 ## Project Overview
-This document establishes the foundational technical specifications for file management, revision control, and documentation standards across all NutriTrack project artifacts. Its purpose is to ensure consistency, maintainability, and efficient collaboration, directly supporting the rapid development and deployment required to achieve user acquisition goals.
+This document outlines the Minimum Viable Product (MVP) for NutriTrack, an AI nutrition coaching SaaS. The MVP focuses on core functionalities: AI-driven meal planning, calorie/macro tracking, and grocery list generation. It aims to validate the core value proposition for busy professionals by providing personalized, efficient nutrition guidance.
 
-## File Naming Conventions
-- All filenames must be lowercase, hyphen-separated (kebab-case).
-- Use descriptive names that clearly indicate content and purpose.
-- Versioning for non-code assets (e.g., design mockups, marketing copy drafts) should follow `filename-vX.Y.ext` (e.g., `onboarding-flow-v1.0.pdf`).
-- Code files should not include version numbers in their names, as Git handles versioning.
+## Tech Stack
+- python==3.10.12
+- fastapi==0.110.0
+- uvicorn==0.27.1
+- pydantic==2.6.1
+- sqlalchemy==2.0.25
+- psycopg2-binary==2.9.9
+- python-dotenv==1.0.1
+- openai==1.12.0 (for AI meal planning integration)
 
-## Directory Structure
-The project workspace will adhere to the following high-level structure. Specific subdirectories will be defined as projects evolve.
+## File Tree
+```
+.
+|-- main.py
+|-- requirements.txt
+|-- .env.example
+|-- app/
+|   |-- __init__.py
+|   |-- api/
+|   |   |-- __init__.py
+|   |   |-- endpoints/
+|   |   |   |-- __init__.py
+|   |   |   |-- auth.py
+|   |   |   |-- users.py
+|   |   |   |-- meal_plans.py
+|   |   |   `-- tracking.py
+|   |-- core/
+|   |   |-- __init__.py
+|   |   |-- config.py
+|   |   `-- security.py
+|   |-- crud/
+|   |   |-- __init__.py
+|   |   |-- user.py
+|   |   |-- meal_plan.py
+|   |   `-- food_log.py
+|   |-- db/
+|   |   |-- __init__.py
+|   |   |-- base.py
+|   |   `-- session.py
+|   |-- models/
+|   |   |-- __init__.py
+|   |   |-- user.py
+|   |   |-- meal_plan.py
+|   |   `-- food_log.py
+|   `-- schemas/
+|       |-- __init__.py
+|       |-- user.py
+|       |-- meal_plan.py
+|       `-- food_log.py
+```
 
-- `/`
-    - `backend/` (for all server-side code, e.g., API, database models)
-    - `frontend/` (for all client-side code, e.g., web app, mobile app)
-    - `docs/` (for project documentation, architecture diagrams, process guides)
-    - `marketing/` (for marketing assets, campaign plans, content drafts)
-    - `data/` (for any static data files, e.g., `campaign_calendar.json`, configuration data)
-    - `tests/` (for all unit, integration, and end-to-end tests)
-    - `scripts/` (for utility scripts, deployment scripts)
-    - `config/` (for environment-specific configurations)
-    - `assets/` (for shared design assets, images, icons)
+## API Endpoints
 
-## Revision Control
-All code and critical documentation will be managed via Git.
+### User Authentication
+- Method: POST
+- Path: /api/v1/auth/register
+- Request body: { "email": "string", "password": "string" }
+- Response: { "message": "User registered successfully" }
+- Auth: None
 
-### Branching Strategy
-- **main:** Production-ready code. Only merged from `develop` after successful QA and release.
-- **develop:** Integration branch for all new features and bug fixes. All feature branches merge into `develop`.
-- **feature/[feature-name]:** Short-lived branches for individual features or tasks. Branch off `develop`.
-- **bugfix/[bug-name]:** Short-lived branches for bug fixes. Branch off `develop` or `main` for hotfixes.
-- **release/[version]:** Created from `develop` for final testing and release preparation. Merges into `main` and `develop`.
+- Method: POST
+- Path: /api/v1/auth/login
+- Request body: { "email": "string", "password": "string" }
+- Response: { "access_token": "string", "token_type": "bearer" }
+- Auth: None
 
-### Commit Message Guidelines
-- Use imperative mood: "Add feature," not "Added feature."
-- First line: concise summary (max 50-72 chars).
-- Second line: blank.
-- Subsequent lines: detailed explanation of what and why, not how.
-- Reference relevant issues or tasks (e.g., `Fix #123`).
+### User Profile
+- Method: GET
+- Path: /api/v1/users/me
+- Request body: None
+- Response: { "id": "int", "email": "string", "dietary_preferences": "string", "goals": "string" }
+- Auth: Bearer token required
 
-## Documentation Standards
-- All documentation files will be in Markdown (`.md`) format where possible.
-- Code comments should explain complex logic, not obvious code.
-- API documentation (e.g., OpenAPI/Swagger) will be generated or maintained alongside the code.
+- Method: PUT
+- Path: /api/v1/users/me
+- Request body: { "dietary_preferences": "string", "goals": "string" }
+- Response: { "id": "int", "email": "string", "dietary_preferences": "string", "goals": "string" }
+- Auth: Bearer token required
 
-## Asset Management
-- Marketing and design assets will be stored in the `assets/` or `marketing/` directories.
-- Large binary files (e.g., high-res images, videos) should be managed with Git LFS if necessary.
-- All assets must have clear, descriptive filenames.
+### AI Meal Planning
+- Method: POST
+- Path: /api/v1/meal_plans/generate
+- Request body: { "preferences": "string", "goals": "string", "num_days": "int" }
+- Response: { "meal_plan_id": "int", "plan_details": "string" } (plan_details will be a JSON string or similar structure)
+- Auth: Bearer token required
 
-## Data Management
-- Static data files (e.g., `campaign_calendar.json`) will reside in the `data/` directory.
-- JSON files should be formatted for readability (indentation).
-- Schema for data files should be documented in `docs/` if complex.
+- Method: GET
+- Path: /api/v1/meal_plans/{meal_plan_id}
+- Request body: None
+- Response: { "meal_plan_id": "int", "user_id": "int", "plan_details": "string", "generated_date": "datetime" }
+- Auth: Bearer token required
+
+- Method: GET
+- Path: /api/v1/meal_plans/grocery_list/{meal_plan_id}
+- Request body: None
+- Response: { "grocery_list": ["string"] }
+- Auth: Bearer token required
+
+### Calorie/Macro Tracking
+- Method: POST
+- Path: /api/v1/tracking/log_food
+- Request body: { "food_item": "string", "quantity": "float", "unit": "string", "calories": "int", "protein": "float", "carbs": "float", "fat": "float", "log_date": "date" }
+- Response: { "log_id": "int", "message": "Food logged successfully" }
+- Auth: Bearer token required
+
+- Method: GET
+- Path: /api/v1/tracking/summary
+- Request body: { "start_date": "date", "end_date": "date" }
+- Response: { "total_calories": "int", "total_protein": "float", "total_carbs": "float", "total_fat": "float", "daily_summaries": [{ "date": "date", "calories": "int", "protein": "float", "carbs": "float", "fat": "float" }] }
+- Auth: Bearer token required
+
+## Environment Variables
+- DATABASE_URL="postgresql+psycopg2://user:password@host:port/database_name"
+- SECRET_KEY="your_super_secret_key"
+- ALGORITHM="HS256"
+- ACCESS_TOKEN_EXPIRE_MINUTES="30"
+- OPENAI_API_KEY="your_openai_api_key"
+
+## Dependencies
+```
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.6.1
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+openai==1.12.0
+```
