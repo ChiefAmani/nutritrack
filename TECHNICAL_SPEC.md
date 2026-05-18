@@ -1,65 +1,132 @@
-# NutriTrack Backend MVP Technical Specification
+# TECHNICAL_SPEC.md
 
-## 1. Introduction
-This document outlines the technical specifications for the NutriTrack Minimum Viable Product (MVP) backend. The primary goal is to develop core features for initial user testing and launch, focusing on AI-driven personalization for busy professionals.
+## Project Overview
+This project focuses on developing the core MVP backend features for NutriTrack, an AI nutrition coaching SaaS. The features include AI meal planning, calorie/macro tracking, grocery list generation, weekly nutrition reports, and email coaching nudges. The goal is to provide a robust and scalable foundation for initial user testing and launch, directly supporting the target of 500 paying users in 90 days.
 
-## 2. Core Features
+## Tech Stack
+- Python==3.10.12
+- FastAPI==0.110.0
+- Pydantic==2.6.1
+- SQLAlchemy==2.0.27
+- psycopg2-binary==2.9.9 (for PostgreSQL database)
+- python-dotenv==1.0.1
+- uvicorn==0.27.1
 
-### 2.1 User Authentication & Management
-- **Description**: Secure user registration, login, and profile management.
-- **Endpoints**:
-    - `POST /auth/register`: User registration with email, password, name.
-    - `POST /auth/login`: User login, returning JWT token.
-    - `GET /users/me`: Retrieve authenticated user profile.
-    - `PUT /users/me`: Update authenticated user profile (e.g., dietary preferences, fitness goals).
-- **Data Model**: User (id, email, password_hash, name, dietary_preferences, fitness_goals)
-- **Security**: JWT-based authentication for all protected endpoints.
+## File Tree
+```
+.
+|-- main.py
+|-- requirements.txt
+|-- .env.example
+|-- app/
+|   |-- __init__.py
+|   |-- core/
+|   |   |-- __init__.py
+|   |   |-- config.py
+|   |   `-- database.py
+|   |-- api/
+|   |   |-- __init__.py
+|   |   |-- endpoints/
+|   |   |   |-- __init__.py
+|   |   |   |-- meal_plans.py
+|   |   |   |-- tracking.py
+|   |   |   |-- grocery_lists.py
+|   |   |   |-- reports.py
+|   |   |   `-- nudges.py
+|   |-- crud/
+|   |   |-- __init__.py
+|   |   |-- meal_plan_crud.py
+|   |   |-- tracking_crud.py
+|   |   |-- grocery_list_crud.py
+|   |   |-- report_crud.py
+|   |   `-- nudge_crud.py
+|   |-- schemas/
+|   |   |-- __init__.py
+|   |   |-- meal_plan_schema.py
+|   |   |-- tracking_schema.py
+|   |   |-- grocery_list_schema.py
+|   |   |-- report_schema.py
+|   |   `-- nudge_schema.py
+|   `-- models/
+|       |-- __init__.py
+|       |-- user_model.py
+|       |-- meal_plan_model.py
+|       |-- food_item_model.py
+|       |-- tracked_item_model.py
+|       |-- grocery_list_model.py
+|       |-- report_model.py
+|       `-- nudge_model.py
+```
 
-### 2.2 AI Meal Planning
-- **Description**: Generate personalized meal plans based on user preferences, dietary restrictions, and fitness goals.
-- **Endpoints**:
-    - `POST /meal-plans/generate`: Generate a new meal plan for a specified duration (e.g., 7 days).
-        - **Request Body**: `{"duration_days": 7, "dietary_preferences": "vegetarian", "fitness_goals": "weight loss"}`
-    - `GET /meal-plans/{plan_id}`: Retrieve a specific meal plan.
-    - `GET /meal-plans`: Retrieve all meal plans for the authenticated user.
-- **Data Model**: MealPlan (id, user_id, start_date, end_date, meals: [Meal]), Meal (day, type, recipe_id, calories, macros)
+## API Endpoints
 
-### 2.3 Calorie & Macro Tracking
-- **Description**: Allow users to log food intake and track daily calories and macronutrients against their goals.
-- **Endpoints**:
-    - `POST /food-logs`: Log a food item for a specific date.
-        - **Request Body**: `{"date": "2026-05-17", "meal_type": "lunch", "food_item": "chicken salad", "calories": 350, "protein": 30, "carbs": 20, "fat": 15}`
-    - `GET /food-logs/{date}`: Retrieve food logs for a specific date.
-    - `GET /food-logs/summary/{date}`: Get daily calorie/macro summary.
-- **Data Model**: FoodLog (id, user_id, date, meal_type, food_item, calories, protein, carbs, fat)
+### Meal Planning
+- Method: POST
+- Path: /api/meal_plans/generate
+- Request body: { "user_id": "str", "dietary_preferences": "list[str]", "calorie_target": "int", "macro_split": "dict" }
+- Response: { "meal_plan_id": "str", "meals": "list[dict]" }
+- Auth: Bearer token required
 
-### 2.4 Grocery List Generation
-- **Description**: Generate a grocery list based on the user's meal plan.
-- **Endpoints**:
-    - `GET /grocery-lists/generate/{meal_plan_id}`: Generate a grocery list from a meal plan.
-- **Data Model**: GroceryList (id, user_id, meal_plan_id, items: [GroceryItem]), GroceryItem (name, quantity, unit)
+- Method: GET
+- Path: /api/meal_plans/{meal_plan_id}
+- Request body: None
+- Response: { "meal_plan_id": "str", "meals": "list[dict]", "created_at": "datetime" }
+- Auth: Bearer token required
 
-### 2.5 Weekly Nutrition Reports
-- **Description**: Generate weekly summaries of calorie/macro intake, progress towards goals, and insights.
-- **Endpoints**:
-    - `GET /reports/weekly/{start_date}`: Generate a weekly nutrition report.
-- **Data Model**: NutritionReport (id, user_id, start_date, end_date, summary_text, avg_calories, avg_macros, insights)
+### Calorie/Macro Tracking
+- Method: POST
+- Path: /api/tracking/log
+- Request body: { "user_id": "str", "food_item": "str", "quantity": "float", "unit": "str", "meal_type": "str", "logged_at": "datetime" }
+- Response: { "tracking_id": "str", "message": "str" }
+- Auth: Bearer token required
 
-## 3. Technology Stack
-- **Backend Framework**: FastAPI (Python)
-- **Database**: PostgreSQL
-- **ORM**: SQLAlchemy
-- **Authentication**: JWT
-- **Deployment**: Docker, AWS/GCP (future)
+- Method: GET
+- Path: /api/tracking/{user_id}/daily_summary
+- Request body: { "date": "date" }
+- Response: { "user_id": "str", "date": "date", "total_calories": "int", "total_macros": "dict", "tracked_items": "list[dict]" }
+- Auth: Bearer token required
 
-## 4. API Design Principles
-- RESTful architecture
-- JSON for request/response bodies
-- Clear error messages with appropriate HTTP status codes
-- Versioning (e.g., `/api/v1/`)
+### Grocery List Generation
+- Method: POST
+- Path: /api/grocery_lists/generate
+- Request body: { "user_id": "str", "meal_plan_id": "str" }
+- Response: { "grocery_list_id": "str", "items": "list[dict]" }
+- Auth: Bearer token required
 
-## 5. Future Considerations (Beyond MVP)
-- Integration with wearable devices
-- AI-driven recipe recommendations
-- Community features
-- Payment gateway integration
+- Method: GET
+- Path: /api/grocery_lists/{grocery_list_id}
+- Request body: None
+- Response: { "grocery_list_id": "str", "items": "list[dict]", "generated_at": "datetime" }
+- Auth: Bearer token required
+
+### Weekly Nutrition Reports
+- Method: GET
+- Path: /api/reports/{user_id}/weekly
+- Request body: { "start_date": "date", "end_date": "date" }
+- Response: { "report_id": "str", "user_id": "str", "period": "str", "summary": "dict", "insights": "list[str]" }
+- Auth: Bearer token required
+
+### Email Coaching Nudges
+- Method: POST
+- Path: /api/nudges/send
+- Request body: { "user_id": "str", "nudge_type": "str", "content": "str" }
+- Response: { "nudge_id": "str", "message": "str" }
+- Auth: Bearer token required
+
+## Environment Variables
+- DATABASE_URL="postgresql+psycopg2://user:password@host:port/database"
+- SECRET_KEY="your_super_secret_key"
+- EMAIL_HOST="smtp.example.com"
+- EMAIL_PORT="587"
+- EMAIL_USERNAME="your_email@example.com"
+- EMAIL_PASSWORD="your_email_password"
+
+## Dependencies
+```
+fastapi==0.110.0
+pydantic==2.6.1
+sqlalchemy==2.0.27
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+uvicorn==0.27.1
+```
