@@ -1,17 +1,16 @@
-PROJECT: Scrape leads for AI nutrition coaching outreach
-ARCHETYPE: MARKETING
+PROJECT: Automated Grocery List & Delivery Integration
+ARCHETYPE: code
 
 KEY QUESTIONS (rank by importance):
-1. What are common lead generation strategies for B2C SaaS in health/wellness, specifically for busy professionals?
-2. Who are NutriTrack's direct and indirect competitors in AI nutrition coaching, and what are their lead generation tactics?
-3. What online platforms do busy professionals (25-45, health-conscious) frequent for health/wellness content or professional networking?
-4. What are effective outreach messages/angles for AI nutrition coaching to this demographic?
+1. What are the leading grocery delivery APIs or services that offer integration for generating grocery lists and facilitating delivery?
+2. What are the typical features, pricing models, and technical requirements for integrating such services?
+3. Are there any specific considerations for integrating with AI-generated meal plans (e.g., handling custom ingredients, dietary restrictions)?
 
 SOURCES TO CHECK:
-- Primary: Industry reports on SaaS marketing, lead generation best practices.
-- Secondary: LinkedIn, Reddit, professional forums, health/wellness blogs, competitor websites.
-- Competitive: Direct competitor websites, social media profiles, review sites (G2, Trustpilot).
+- Primary: Grocery delivery service API documentation (e.g., Instacart, Amazon Fresh, other regional services).
+- Secondary: Developer forums, tech blogs, articles on grocery API integrations.
+- Competitive: Look for existing nutrition apps with similar features.
 
-DELIVERABLE: CAMPAIGN_STRATEGY.md
+DELIVERABLE: TECHNICAL_SPEC.md
 
-SUCCESS CRITERIA: CAMPAIGN_STRATEGY.md is comprehensive, actionable, and directly addresses lead scraping and outreach for NutriTrack's target audience.
+SUCCESS CRITERIA: A comprehensive TECHNICAL_SPEC.md detailing the integration strategy, including API choices, data models, and technical requirements for automated grocery list generation and delivery.
