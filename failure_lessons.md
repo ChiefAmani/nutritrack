@@ -15,6 +15,6 @@
 ### Iteration 3, Phase 1
 **QA Rejected — Revision Routing:**
 
-*   **Specific Failure:** QA rejected iteration 3 due to "Revision Routing" breakdown, meaning revisions were not correctly tracked, communicated, or applied, leading to incomplete or misdirected updates.
-*   **Root Cause:** Lack of a defined, documented, and enforced process for managing post-submission revisions, including unclear handoff protocols and insufficient communication channels between development and QA.
-*   **Next Iteration Action:** Implement a mandatory, formal revision management workflow: define clear routing steps, assign revision ownership, and utilize a shared tracking system for all changes.
+*   **What specifically went wrong:** Iteration 3 failed QA due to unaddressed prior revisions or regressions introduced during revision implementation. "Revision Routing" indicates a breakdown in incorporating feedback.
+*   **Root cause:** Inadequate revision tracking and insufficient regression testing post-revision. Team failed to verify all previous feedback was integrated correctly and that new changes didn't break existing functionality.
+*   **What the team must do differently next iteration:** Implement a formal revision tracking system. Mandate comprehensive regression testing for all revised modules before QA submission. Improve communication on revision scope and impact.
