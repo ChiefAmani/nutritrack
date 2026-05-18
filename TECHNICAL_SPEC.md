@@ -1,145 +1,168 @@
-# TECHNICAL_SPEC.md
+# NutriTrack API Technical Specification
 
-## Project Overview
-This document specifies the API endpoints for the NutriTrack AI Nutrition Coaching SaaS. It outlines the core functionalities including AI meal planning, calorie/macro tracking, grocery list generation, weekly nutrition reports, and email coaching nudges, enabling frontend development and integration for initial user testing and validation.
+## Introduction
+This document outlines the technical specifications for the NutriTrack AI Nutrition Coaching API. It serves as a contract for frontend development and integration, detailing the core endpoints for user management, meal planning, tracking, grocery lists, reports, and nudges.
 
-## Tech Stack
-- FastAPI==0.110.0
-- Pydantic==2.6.1
-- Uvicorn==0.29.0
+## Base URL
+`https://api.nutritrack.com`
 
-## File Tree
-- .
-- app/
-- app/api/
-- app/api/endpoints/
-- app/api/endpoints/__init__.py
-- app/api/endpoints/meal_plans.py
-- app/api/endpoints/tracking.py
-- app/api/endpoints/grocery_lists.py
-- app/api/endpoints/reports.py
-- app/api/endpoints/nudges.py
-- app/api/endpoints/me.py (placeholder for user-related endpoints)
-- app/api/__init__.py
-- app/__init__.py
-- app/main.py
-- TECHNICAL_SPEC.md
-- requirements.txt
-- .env
+## Authentication
+All API endpoints require authentication. A valid API key or JWT token must be included in the `Authorization` header for all requests.
 
-## API Endpoints
+## Endpoints
 
-### Root Endpoint
-- Method: GET
-- Path: /
-- Description: Basic health check or welcome message.
-- Request body: None
-- Response: message: string (e.g., "Welcome to NutriTrack API!")
-- Auth: None
+### 1. User Management (Me)
+*   **GET /api/me**
+    *   **Description:** Retrieve the authenticated user's profile information.
+    *   **Response:**
+        ```
+        {
+          "id": "user123",
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "preferences": {
+            "dietary_restrictions": ["vegetarian"],
+            "calorie_target": 2000
+          }
+        }
+        ```
 
-### Meal Plans
-- Method: POST
-- Path: /api/meal_plans/generate
-- Description: Generates a personalized meal plan based on user preferences.
-- Request body:
-  user_id: string
-  dietary_preferences: list of strings
-  calorie_target: integer
-  macro_split: object (protein: integer, carbs: integer, fat: integer)
-- Response:
-  meal_plan_id: string
-  plan_details: list of objects (meal_type: string, recipe_name: string, ingredients: list of strings, calories: integer, macros: object (protein: integer, carbs: integer, fat: integer))
-- Auth: Bearer token required
+### 2. Meal Plans
+*   **GET /api/meal_plans/current**
+    *   **Description:** Retrieve the user's current meal plan.
+    *   **Response:**
+        ```
+        {
+          "date": "2026-05-18",
+          "meals": [
+            {
+              "type": "breakfast",
+              "name": "Oatmeal with Berries",
+              "calories": 350,
+              "macros": {"protein": 15, "carbs": 50, "fat": 10}
+            },
+            {
+              "type": "lunch",
+              "name": "Chicken Salad",
+              "calories": 450,
+              "macros": {"protein": 40, "carbs": 20, "fat": 25}
+            }
+          ]
+        }
+        ```
+*   **POST /api/meal_plans/generate**
+    *   **Description:** Generate a new meal plan based on user preferences.
+    *   **Request:**
+        ```
+        {
+          "dietary_restrictions": ["vegetarian"],
+          "calorie_target": 2000,
+          "meal_count": 3
+        }
+        ```
+    *   **Response:** (Same as GET /api/meal_plans/current)
 
-- Method: GET
-- Path: /api/meal_plans/{meal_plan_id}
-- Description: Retrieves a specific meal plan.
-- Request body: None
-- Response: (Same as POST response for plan_details)
-- Auth: Bearer token required
+### 3. Tracking
+*   **POST /api/tracking/log_meal**
+    *   **Description:** Log a consumed meal.
+    *   **Request:**
+        ```
+        {
+          "meal_name": "Oatmeal with Berries",
+          "calories": 350,
+          "macros": {"protein": 15, "carbs": 50, "fat": 10},
+          "timestamp": "2026-05-18T08:30:00Z"
+        }
+        ```
+    *   **Response:**
+        ```
+        {"message": "Meal logged successfully."}
+        ```
+*   **GET /api/tracking/summary**
+    *   **Description:** Get a summary of daily nutrition intake.
+    *   **Response:**
+        ```
+        {
+          "date": "2026-05-18",
+          "total_calories": 800,
+          "total_macros": {"protein": 55, "carbs": 70, "fat": 35},
+          "meals_logged": 2
+        }
+        ```
 
-### Tracking
-- Method: POST
-- Path: /api/tracking/log_meal
-- Description: Logs a consumed meal for calorie and macro tracking.
-- Request body:
-  user_id: string
-  meal_name: string
-  consumed_at: datetime
-  calories: integer
-  macros: object (protein: integer, carbs: integer, fat: integer)
-- Response:
-  tracking_id: string
-  status: string (e.g., "success")
-- Auth: Bearer token required
+### 4. Grocery Lists
+*   **GET /api/grocery_lists/current**
+    *   **Description:** Retrieve the user's current grocery list based on meal plans.
+    *   **Response:**
+        ```
+        {
+          "date": "2026-05-18",
+          "items": [
+            {"name": "Oats", "quantity": "1 cup"},
+            {"name": "Mixed Berries", "quantity": "1/2 cup"},
+            {"name": "Chicken Breast", "quantity": "200g"},
+            {"name": "Lettuce", "quantity": "1 head"}
+          ]
+        }
+        ```
+*   **POST /api/grocery_lists/generate**
+    *   **Description:** Generate a new grocery list.
+    *   **Request:**
+        ```
+        {
+          "meal_plan_id": "plan123",
+          "start_date": "2026-05-18",
+          "end_date": "2026-05-24"
+        }
+        ```
+    *   **Response:** (Same as GET /api/grocery_lists/current)
 
-- Method: GET
-- Path: /api/tracking/summary/{user_id}
-- Description: Retrieves daily or weekly tracking summary for a user.
-- Request body: None
-- Response:
-  user_id: string
-  date_range: string
-  total_calories: integer
-  total_macros: object (protein: integer, carbs: integer, fat: integer)
-  meals_logged: integer
-- Auth: Bearer token required
+### 5. Reports
+*   **GET /api/reports/weekly**
+    *   **Description:** Generate a weekly nutrition report.
+    *   **Response:**
+        ```
+        {
+          "start_date": "2026-05-11",
+          "end_date": "2026-05-17",
+          "average_daily_calories": 1950,
+          "average_daily_macros": {"protein": 80, "carbs": 200, "fat": 70},
+          "trends": "Consistent calorie intake, slightly low on protein."
+        }
+        ```
 
-### Grocery Lists
-- Method: POST
-- Path: /api/grocery_lists/generate
-- Description: Generates a grocery list based on a meal plan.
-- Request body:
-  user_id: string
-  meal_plan_id: string
-- Response:
-  grocery_list_id: string
-  items: list of objects (item_name: string, quantity: string, unit: string)
-- Auth: Bearer token required
-
-- Method: GET
-- Path: /api/grocery_lists/{grocery_list_id}
-- Description: Retrieves a specific grocery list.
-- Request body: None
-- Response: (Same as POST response for items)
-- Auth: Bearer token required
-
-### Reports
-- Method: GET
-- Path: /api/reports/weekly_nutrition/{user_id}
-- Description: Generates a weekly nutrition report for a user.
-- Request body: None
-- Response:
-  report_id: string
-  user_id: string
-  start_date: date
-  end_date: date
-  average_calories_per_day: integer
-  macro_breakdown: object (protein_percentage: integer, carbs_percentage: integer, fat_percentage: integer)
-  insights: list of strings
-- Auth: Bearer token required
-
-### Nudges
-- Method: POST
-- Path: /api/nudges/send
-- Description: Triggers an email coaching nudge for a user.
-- Request body:
-  user_id: string
-  nudge_type: string
-  message_content: string
-- Response:
-  nudge_id: string
-  status: string (e.g., "sent")
-- Auth: Bearer token required
-
-## Environment Variables
-- DATABASE_URL: Connection string for the database.
-- SECRET_KEY: Secret key for JWT authentication.
-- EMAIL_API_KEY: API key for email sending service.
-
-## Dependencies
-fastapi==0.110.0
-pydantic==2.6.1
-uvicorn==0.29.0
-python-dotenv==1.0.1
-# Add other database drivers, AI model dependencies, etc. as needed
+### 6. Nudges
+*   **GET /api/nudges/current**
+    *   **Description:** Retrieve current coaching nudges for the user.
+    *   **Response:**
+        ```
+        [
+          {
+            "id": "nudge001",
+            "type": "email",
+            "message": "Remember to drink enough water today!",
+            "action": "Hydration reminder"
+          },
+          {
+            "id": "nudge002",
+            "type": "app_notification",
+            "message": "You're doing great! Keep tracking your meals.",
+            "action": "Encouragement"
+          }
+        ]
+        ```
+*   **POST /api/nudges/send**
+    *   **Description:** Manually trigger a coaching nudge (for admin/testing).
+    *   **Request:**
+        ```
+        {
+          "user_id": "user123",
+          "type": "email",
+          "message": "Time for your afternoon snack!",
+          "action": "Snack reminder"
+        }
+        ```
+    *   **Response:**
+        ```
+        {"message": "Nudge sent successfully."}
+        ```
