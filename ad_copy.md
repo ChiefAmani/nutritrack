@@ -1,51 +1,80 @@
-# Ad Copy for My Business
+# Ad Copy Variants
 
-## Google Ads (Search)
+## Google Ads
 
-### Headline 1 (30 chars): Instant Fun. Play Now.
-### Headline 2 (30 chars): Casual Games for All.
-### Headline 3 (30 chars): Escape & Smile.
+### Responsive Search Ad (RSA) Variants
 
-### Description Line 1 (90 chars): Quick, stress-free games. Perfect for breaks. Download & play today!
-### Description Line 2 (90 chars): Relive retro joy. Share laughs. Your next favorite game awaits.
+**Headlines (Max 30 chars each):**
+- AI Meal Planning Done
+- Save Hours on Nutrition
+- Personalized Health Plans
+- Track Macros Effortlessly
+- Smart Grocery Lists
+- Weekly Nutrition Reports
+- Coaching Nudges Included
+- For Busy Professionals
+- Achieve Health Goals
+- Stop Diet Stress
+- Data-Driven Nutrition
+- Your AI Nutrition Coach
+- Healthy Habits Made Easy
+- NutriTrack: Your Solution
+- Start Your Free Trial
 
-### Path 1 (15 chars): /instantfun
-### Path 2 (15 chars): /casualgames
-
----
+**Descriptions (Max 90 chars each):**
+- NutriTrack offers AI meal planning, calorie tracking, & grocery lists for busy pros. Save time, eat better.
+- Get personalized nutrition plans and weekly reports. Effortless health management for your demanding schedule.
+- Ditch generic diets. Our AI provides tailored guidance & coaching nudges to keep you on track.
+- Simplify healthy eating. Automated tracking, smart lists, and expert insights. Try NutriTrack today.
 
 ## Meta Ads (Facebook/Instagram)
 
-### Ad Variant 1: Instant Fun
-*   **Primary Text:** Tired of complex games? Get instant fun with My Business! Quick, stress-free entertainment for your breaks. Tap to play now!
-*   **Headline:** Play Now. Instant Fun. (25 chars)
-*   **Description:** Your daily dose of joy. (30 chars)
-*   **Call to Action:** Play Game / Learn More
+### Ad Variant 1
+**Primary Text (Max ~125 chars):**
+Busy? Overwhelmed by meal prep? NutriTrack's AI plans your meals, tracks your macros, and generates grocery lists. Reclaim your time and health.
+**Headline (Max 40 chars):**
+AI Nutrition for Busy Pros
+**Description (Max 30 chars):**
+Personalized. Effortless.
 
-### Ad Variant 2: Nostalgic Charm
-*   **Primary Text:** Remember the good old days of arcade gaming? We've brought that nostalgic charm back! Simple, addictive, and pure fun. Discover your retro escape.
-*   **Headline:** Retro Fun. Reimagined. (25 chars)
-*   **Description:** Classic joy, modern twist. (30 chars)
-*   **Call to Action:** Play Game / Learn More
+### Ad Variant 2
+**Primary Text (Max ~125 chars):**
+Stop guessing about nutrition. Get data-driven insights, weekly reports, and coaching nudges from NutriTrack. Achieve your goals faster.
+**Headline (Max 40 chars):**
+Master Your Health with AI
+**Description (Max 30 chars):**
+Smart Tracking. Real Results.
 
-### Ad Variant 3: Shareable Moments
-*   **Primary Text:** Laughed out loud playing? Share the fun! Our games are packed with hilarious, shareable moments. Challenge friends, spread smiles. Get started!
-*   **Headline:** Share the Laughs. (25 chars)
-*   **Description:** Epic moments, easy share. (30 chars)
-*   **Call to Action:** Play Game / Share Now
-
----
+### Ad Variant 3
+**Primary Text (Max ~125 chars):**
+Your demanding career shouldn't compromise your health. NutriTrack simplifies healthy eating with AI-powered tools. Start feeling better, today.
+**Headline (Max 40 chars):**
+Simplify Healthy Eating
+**Description (Max 30 chars):**
+Time-Saving Nutrition.
 
 ## LinkedIn Ads
 
-### Ad Variant 1: Professional Break
-*   **Primary Text:** Busy professional? Your brain needs a break. My Business offers quick, engaging casual games designed to de-stress and recharge in minutes. Boost your focus with a smile.
-*   **Headline:** De-Stress with Play. (30 chars)
-*   **Description:** Smart breaks for busy minds. (75 chars)
-*   **Call to Action:** Learn More / Play Now
+### Ad Variant 1
+**Main Text (Max ~150 chars):**
+Urban professionals: Optimize your nutrition without sacrificing precious time. NutriTrack delivers AI meal planning, automated tracking, and smart grocery lists. Elevate your well-being.
+**Headline (Max 70 chars):**
+NutriTrack: AI Nutrition Coaching for Busy Professionals
+**Description (Max 100 chars):**
+Streamline your health. Personalized plans, effortless tracking, and data-driven insights.
 
-### Ad Variant 2: Team Building / Engagement
-*   **Primary Text:** Looking for lighthearted team engagement? Our casual games provide fun, accessible challenges perfect for quick office breaks or virtual team activities. Foster connection and boost morale.
-*   **Headline:** Engage Your Team. (30 chars)
-*   **Description:** Fun, quick team challenges. (75 chars)
-*   **Call to Action:** Learn More / Contact Us
+### Ad Variant 2
+**Main Text (Max ~150 chars):**
+Struggling to maintain healthy habits amidst a demanding schedule? NutriTrack provides weekly nutrition reports and AI coaching nudges. Stay on track, effortlessly.
+**Headline (Max 70 chars):**
+Achieve Your Health Goals with AI-Powered Guidance
+**Description (Max 100 chars):**
+Gain clarity with personalized reports and consistent support. Focus on what matters.
+
+### Ad Variant 3
+**Main Text (Max ~150 chars):**
+Time is your most valuable asset. NutriTrack saves you hours weekly on meal planning and grocery shopping. Invest in your health, efficiently.
+**Headline (Max 70 chars):**
+Reclaim Your Time: Smart Nutrition for High Performers
+**Description (Max 100 chars):**
+Automated solutions for meal prep, tracking, and grocery lists. Maximize your productivity.
