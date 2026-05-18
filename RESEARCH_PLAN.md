@@ -1,17 +1,17 @@
-PROJECT: Generate targeted leads for AI nutrition coaching
+PROJECT: Scrape leads for AI nutrition coaching outreach
 ARCHETYPE: MARKETING
 
 KEY QUESTIONS (rank by importance):
-1. What are the common pain points and online behaviors of busy urban professionals (25-45) seeking nutrition guidance?
-2. Who are the main competitors in the AI nutrition coaching space, and what are their marketing strategies and positioning?
-3. Which digital marketing platforms are most effective for reaching this target audience?
-4. What are effective messaging themes and content types for AI nutrition coaching for busy professionals?
+1. What are common lead generation strategies for B2C SaaS in health/wellness, specifically for busy professionals?
+2. Who are NutriTrack's direct and indirect competitors in AI nutrition coaching, and what are their lead generation tactics?
+3. What online platforms do busy professionals (25-45, health-conscious) frequent for health/wellness content or professional networking?
+4. What are effective outreach messages/angles for AI nutrition coaching to this demographic?
 
 SOURCES TO CHECK:
-- Primary: Industry reports, health & wellness forums (Reddit, specific communities), professional networking sites (LinkedIn).
-- Secondary: Competitor websites, social media profiles, review sites (G2, Trustpilot).
-- Competitive: Google search for "AI nutrition coaching", "meal planning app for professionals".
+- Primary: Industry reports on SaaS marketing, lead generation best practices.
+- Secondary: LinkedIn, Reddit, professional forums, health/wellness blogs, competitor websites.
+- Competitive: Direct competitor websites, social media profiles, review sites (G2, Trustpilot).
 
 DELIVERABLE: CAMPAIGN_STRATEGY.md
 
-SUCCESS CRITERIA: A comprehensive CAMPAIGN_STRATEGY.md that provides actionable guidance for generating targeted leads, aligned with NutriTrack's business goals and ideal customer profile.
+SUCCESS CRITERIA: CAMPAIGN_STRATEGY.md is comprehensive, actionable, and directly addresses lead scraping and outreach for NutriTrack's target audience.
