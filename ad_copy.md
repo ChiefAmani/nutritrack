@@ -1,49 +1,47 @@
-# NutriTrack Ad Copy Variants
+# Ad Copy for NutriTrack
 
-## Google Ads (Responsive Search Ads - RSA)
+## Google Ads (Search)
 
-**Headlines (Max 30 characters each):**
-*   AI Meal Planning
-*   Save Hours Weekly
-*   Personalized Nutrition
-*   For Busy Professionals
-*   Automated Health
-*   Track Macros Easily
-*   Get Grocery Lists
-*   NutriTrack Free Trial
-*   Stop Diet Stress
-*   Your AI Coach
+**Ad Group: AI Meal Planning**
+*   **Headline 1:** AI Meal Planning for Pros (26 chars)
+*   **Headline 2:** Save Hours, Eat Healthy (23 chars)
+*   **Headline 3:** Personalized Nutrition (24 chars)
+*   **Description 1:** Busy? Get AI-powered meal plans, tracking & grocery lists. Reclaim your time & health. (89 chars)
+*   **Description 2:** Stop generic diets. Get data-driven, personalized nutrition coaching for your demanding life. (90 chars)
+*   **Call to Action:** Get Started
 
-**Descriptions (Max 90 characters each):**
-*   NutriTrack offers AI meal planning, calorie tracking & grocery lists for busy pros. Reclaim your time.
-*   Get personalized nutrition guidance tailored to your schedule. Achieve health goals effortlessly.
-*   Automate your healthy eating. Weekly reports & coaching nudges keep you on track. Start free.
-*   Stop sacrificing health for work. NutriTrack simplifies nutrition for urban professionals 25-45.
+**Ad Group: Nutrition Coaching**
+*   **Headline 1:** Your AI Nutrition Coach (24 chars)
+*   **Headline 2:** Health for Busy Professionals (29 chars)
+*   **Headline 3:** Data-Driven Results (20 chars)
+*   **Description 1:** Personalized guidance, weekly reports, and coaching nudges. Achieve your health goals effortlessly. (90 chars)
+*   **Description 2:** Ditch the guesswork. Smart, efficient nutrition tailored to your demanding schedule. Try free. (89 chars)
+*   **Call to Action:** Learn More
 
 ## Meta Ads (Facebook/Instagram)
 
-**Ad Copy 1 (Focus: Time-Saving & Convenience)**
-*   **Headline:** Reclaim Your Time. Master Your Nutrition.
-*   **Body:** Busy professional? Your health shouldn't be a chore. NutriTrack's AI handles meal planning, grocery lists, and tracking for you. Spend less time stressing, more time living.
-*   **Image/Video Idea:** Professional looking person effortlessly preparing a healthy meal, or a split screen showing "before" (stressed, planning) and "after" (relaxed, eating).
-*   **Call to Action:** Learn More / Sign Up
+**Ad 1: Time-Saving Focus**
+*   **Headline:** Stop Wasting Weekends on Meal Prep. (39 chars)
+*   **Primary Text:** Busy professionals, imagine healthy, delicious meals planned for you in minutes. NutriTrack's AI handles everything: planning, tracking, grocery lists. Reclaim your time, energy, and health.
+*   **Image/Video:** Dynamic video showing quick meal plan generation, grocery list, and healthy, appealing food.
+*   **Call to Action:** Learn More
 
-**Ad Copy 2 (Focus: Personalized Results & AI Edge)**
-*   **Headline:** Your Personal AI Nutrition Coach.
-*   **Body:** Generic diets fail. Your life is unique, your nutrition should be too. NutriTrack delivers AI-powered personalized meal plans, calorie/macro tracking, and coaching nudges. Get results tailored to YOU.
-*   **Image/Video Idea:** Infographic showing personalized data points, or a diverse group of professionals looking healthy and happy.
-*   **Call to Action:** Get Started / Discover Your Plan
+**Ad 2: Personalized Health Focus**
+*   **Headline:** Your Health, Tailored to You. (28 chars)
+*   **Primary Text:** Tired of generic diet advice? NutriTrack delivers truly personalized nutrition. Our AI understands your unique needs, crafting plans that fit *your* life. Get results that last.
+*   **Image/Video:** Graphic illustrating personalized data points leading to a custom meal plan.
+*   **Call to Action:** Start Free Trial
 
 ## LinkedIn Ads
 
-**Ad Copy 1 (Focus: Professional Productivity & Health)**
-*   **Headline:** Boost Productivity. Optimize Your Health.
-*   **Body:** Busy professionals know time is money. Don't let nutrition fall by the wayside. NutriTrack's AI streamlines meal planning, tracking, and grocery shopping, freeing up your valuable time. Achieve peak performance, in and out of the office.
-*   **Image/Video Idea:** Professional in a modern office setting, looking focused and healthy.
-*   **Call to Action:** Learn More / Request Demo
+**Ad 1: Productivity & Wellness**
+*   **Headline:** Boost Your Productivity with Smart Nutrition. (48 chars)
+*   **Introductory Text:** Urban professionals, your demanding schedule shouldn't compromise your health. NutriTrack's AI provides personalized meal plans, tracking, and reports to fuel your success and focus.
+*   **Image/Video:** Professional image of a person working efficiently with healthy food nearby.
+*   **Call to Action:** Get Started
 
-**Ad Copy 2 (Focus: Problem/Solution for Busy Professionals)**
-*   **Headline:** The Solution for Busy Professionals' Nutrition.
-*   **Body:** Struggling to maintain healthy habits amidst a demanding career? NutriTrack offers an AI-driven, comprehensive solution: personalized meal plans, automated tracking, weekly reports, and coaching nudges. Finally, effortless healthy living.
-*   **Image/Video Idea:** Clean, modern UI of the NutriTrack app, or a professional looking relieved and satisfied.
-*   **Call to Action:** Start Free Trial / Explore Features
+**Ad 2: Data-Driven Performance**
+*   **Headline:** Data-Driven Health for High Performers. (40 chars)
+*   **Introductory Text:** Make smarter health choices with NutriTrack. Our AI delivers precise calorie/macro tracking and weekly reports, giving you the insights to optimize your performance and well-being.
+*   **Image/Video:** Infographic showing data insights leading to improved health metrics.
+*   **Call to Action:** Request Demo
