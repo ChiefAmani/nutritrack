@@ -1,28 +1,22 @@
 
 
 ### Iteration 1, Phase 1
-**QA rejection details missing.** Cannot conduct post-mortem without specific failure points. Provide QA rejection report.
+**QA Failure Lesson:**
 
-
-### Iteration 1, Phase 1
-**Failure Lesson:**
-
-*   **Specific Failure:** QA rejected due to "Revision Routing," indicating a critical flaw in managing and directing revisions (data, content, or code changes) within the system.
-*   **Root Cause:** Incomplete or ambiguous definition of revision control workflows and routing logic during the initial "Pre-Flight & Planning" phase. Structured approach lacked depth for this critical process.
-*   **Next Iteration:** Prioritize detailed specification and explicit implementation of all revision handling, routing rules, and associated data states. QA must validate these workflows first.
+*   **Specific Failure:** QA rejected due to `TECHNICAL_SPEC.` file mismatch, preventing revision routing. The system could not locate or correctly identify the required specification document.
+*   **Root Cause:** Lack of adherence to file naming conventions or missing file validation. The submission process failed to ensure the correct `TECHNICAL_SPEC.md` was present and properly named.
+*   **Next Iteration:** Implement mandatory pre-submission checks for all required documents, enforcing exact file names (`TECHNICAL_SPEC.md`) and paths. Automate validation to prevent basic file errors.
 
 
 ### Iteration 2, Phase 1
-**QA Rejected — Revision Routing:**
-
-*   **What specifically went wrong:** Iteration 2 failed QA due to "Revision Routing," indicating a breakdown in the process or content of submitted revisions.
-*   **Root cause:** Ambiguous revision submission criteria and undocumented routing protocols led to incomplete or incorrectly prepared deliverables for QA.
-*   **What the team must do differently next iteration:** Establish and enforce a clear "Definition of Done" for all revisions, including mandatory pre-QA checklists and explicit routing steps.
+*   **Specific Failure:** `TECHNICAL_SPEC.md` was mismatched or missing, leading to a "Revision Routing" QA rejection. The delivered output did not align with the expected foundational specification.
+*   **Root Cause:** Absence of a validated, single source of truth for technical requirements and insufficient pre-development verification of core specification documents.
+*   **Next Iteration:** Finalize and lock `TECHNICAL_SPEC.md` *before* any development. Implement a mandatory pre-QA checklist to confirm all foundational specs are present and correctly implemented.
 
 
 ### Iteration 3, Phase 1
-**QA Failure Lesson:**
+**QA Rejected — Revision Routing**
 
-*   Core backend for user authentication and meal logging failed QA, indicating critical functional defects or unmet specification.
-*   Root cause: Inadequate developer-level testing (unit/integration) and insufficient adherence to defined acceptance criteria before handoff.
-*   Team must implement comprehensive unit and integration tests, ensuring all acceptance criteria are met and passing before submitting to QA.
+*   **What specifically went wrong:** QA rejected iteration 3 due to "Revision Routing" and a "File Mismatch" in `TECHNICAL_SPEC.`. The delivered work did not align with the expected technical specification.
+*   **Root cause:** Incomplete or unapproved `TECHNICAL_SPEC.md` led to development diverging from requirements. Lack of a single, agreed-upon source of truth for technical implementation details.
+*   **What the team must do differently next iteration:** Finalize and obtain sign-off on `TECHNICAL_SPEC.md` *before* any development begins. Ensure all work strictly adheres to the approved specification, with clear version control and team alignment.
