@@ -1,16 +1,17 @@
-PROJECT: NutriTrack Marketing Campaign Strategy
+PROJECT: GTM Strategy & Marketing Assets
 ARCHETYPE: MARKETING
 
 KEY QUESTIONS (rank by importance):
-1. What are the key marketing strategies and content types used by successful AI nutrition coaching platforms targeting busy professionals?
-2. Who are NutriTrack's direct and indirect competitors, and what are their unique selling propositions, pricing, and marketing channels?
-3. What are the common pain points and online behaviors of urban professionals (25-45) seeking nutrition guidance?
+1. What are the key competitors in the AI nutrition coaching SaaS space for busy professionals, and what are their core offerings, pricing, and marketing angles?
+2. What social media platforms are most effective for reaching urban professionals aged 25-45 who are health-conscious?
+3. What are common pain points and online behaviors of this target audience related to nutrition and health tech?
+4. What are effective content types and messaging strategies for AI nutrition coaching SaaS on selected platforms?
 
 SOURCES TO CHECK:
-- Primary: Competitor websites, social media profiles (LinkedIn, Instagram, Facebook), app store reviews (Apple App Store, Google Play Store).
-- Secondary: Industry reports on health & wellness tech, AI SaaS, nutrition coaching; articles on digital marketing for SaaS; Reddit/Hacker News discussions on nutrition apps.
-- Competitive: Specific competitor names identified through initial searches.
+- Primary: Competitor websites, G2.com, Trustpilot.com, Reddit, industry reports.
+- Secondary: Marketing blogs, social media platform insights.
+- Competitive: Specific AI nutrition coaching platforms.
 
 DELIVERABLE: CAMPAIGN_STRATEGY.md
 
-SUCCESS CRITERIA: A comprehensive CAMPAIGN_STRATEGY.md that provides actionable guidance for digital marketing, early adopter programs, influencer partnerships, and content marketing, aligned with NutriTrack's goals and target audience.
+SUCCESS CRITERIA: CAMPAIGN_STRATEGY.md is comprehensive, actionable, and directly addresses all required sections for a marketing project, enabling the marketing team to execute.
