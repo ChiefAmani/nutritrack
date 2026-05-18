@@ -1,70 +1,94 @@
 # CONTENT_OUTLINE.md
 
-## Project: Revision Control & File Management Specification
-## Format: Markdown
-## Target audience: NutriTrack Internal Team (Developers, Marketers, Product, QA)
-## Tone: Professional, Prescriptive, Clear, Efficient
-## Total target length: ~1000-1500 words
+## Project: NutriTrack Revision Control & File Management Specification
+## Format: Markdown (.md)
+## Target audience: Development Team, Marketing Team, Project Managers, QA Engineers
+## Tone: Professional, technical, precise, authoritative
+## Total target length: ~1500-2000 words
 
 ## Section Structure:
-### Section 1: Introduction and Purpose (~150 words)
-Key arguments:
-- Address past QA issues related to revision control and file management.
-- Establish a single source of truth for project artifacts.
-- Improve collaboration, reduce errors, and streamline workflows.
-Data sources: Sprint history, CEO planning memo.
 
-### Section 2: Scope and Definitions (~100 words)
+### Section 1: Introduction (~150 words)
 Key arguments:
-- Define types of project artifacts covered (code, marketing assets, documentation, data files).
-- Define key terms: Version, Revision, Draft, Approved, Published, Archived.
-Data sources: Internal NutriTrack project types.
+- Purpose of the document: Establish clear, consistent standards for revision control and file management across all NutriTrack project artifacts, especially marketing assets.
+- Scope: Applies to all digital assets, code, documentation, and data files generated or used by NutriTrack teams.
+- Benefits: Improve collaboration, reduce errors, ensure data integrity, streamline workflows, facilitate auditing.
+Data sources: Internal company context.
 
-### Section 3: Revision Control Workflow (~300 words)
+### Section 2: Core Principles of Revision Control (~200 words)
 Key arguments:
-- **Version Numbering Convention:** Semantic Versioning (MAJOR.MINOR.PATCH) for code; Date-based (YYYYMMDD.Revision) for documents/data.
-- **Change Management Process:**
-    - Draft creation.
-    - Review and feedback loop.
-    - Approval process (who approves what).
-    - Finalization and publication.
-- **Commit/Save Message Guidelines:** Standardized format (e.g., `[TYPE]: Brief description (JIRA-XXXX)`).
+- Immutability of released versions.
+- Traceability of changes.
+- Clear ownership and accountability for revisions.
+- Importance of branching and merging strategies (for code and potentially content).
+- Automation where possible.
 Data sources: Industry best practices for version control.
 
-### Section 4: File Management Protocols (~250 words)
+### Section 3: File Naming Conventions (~150 words)
 Key arguments:
-- **Standardized Naming Conventions:** `[ProjectName]_[ArtifactType]_[Description]_[Version/Date].ext`.
-- **Centralized Directory Structure:** Hierarchical structure for easy navigation and access.
-- **Storage Locations:**
-    - Code: GitHub.
-    - Documents (specs, reports): Shared cloud drive (e.g., Google Drive, SharePoint).
-    - Marketing Assets (images, videos): Dedicated asset management system or shared drive.
-- **Archiving Strategy:** Criteria and process for archiving outdated or unused files.
-Data sources: Internal NutriTrack file types and existing storage solutions.
+- Standardized format (e.g., `[ProjectCode]_[AssetType]_[Description]_[Version].ext`).
+- Use of hyphens/underscores, lowercase.
+- Avoid special characters.
+- Examples for different asset types (e.g., `marketing_campaign_calendar_v1.0.json`, `backend_user_api_v2.1.py`).
+Data sources: Internal company context, general file management guidelines.
 
-### Section 5: Data States and Routing Logic (~200 words)
+### Section 4: Directory Structure and Storage (~200 words)
 Key arguments:
-- **Defined States:** Draft, In Review, Approved, Published, Archived.
-- **Transition Rules:** How artifacts move between states.
-- **Responsibility Matrix:** Clearly assign ownership for state transitions (e.g., Developer for Code Draft, CMO for Marketing Asset Approval).
-Data sources: Internal NutriTrack team roles.
+- Hierarchical structure for project folders (e.g., `root/project_name/asset_type/sub_type`).
+- Centralized storage locations.
+- Access control and permissions.
+- Examples for common project types (e.g., `marketing/campaigns/2026_Q3/`, `backend/src/api/`).
+Data sources: Internal company context, cloud storage best practices.
 
-### Section 6: Tools and Systems (~100 words)
+### Section 5: Versioning Scheme (~150 words)
 Key arguments:
-- **Version Control System:** GitHub for all code repositories.
-- **Document Management:** Specify chosen platform (e.g., Google Drive, Confluence).
-- **Communication:** Slack/Email for notifications and discussions.
-Data sources: Existing NutriTrack tools.
+- Semantic Versioning (Major.Minor.Patch) for code.
+- Simple sequential versioning (v1.0, v1.1, v2.0) for documents and marketing assets.
+- Alpha/Beta/RC tags for pre-release versions.
+- How to increment versions.
+Data sources: Semantic Versioning specification, internal company needs.
 
-### Section 7: Compliance and Audit Trails (~100 words)
+### Section 6: Workflow for Asset Creation and Revision (~300 words)
 Key arguments:
-- Importance of maintaining a clear history of changes.
-- How to retrieve past versions and review change logs.
-- Ensuring accountability for modifications.
-Data sources: Regulatory requirements (if any), internal QA needs.
+- Step-by-step process from initial draft to final approval.
+- Check-in/check-out procedures (if applicable for non-code assets).
+- Branching and merging for collaborative content.
+- Role of pull requests/review processes.
+- Integration with project management tools.
+Data sources: Agile/Scrum workflows, Git workflow best practices.
 
-### Section 8: Training and Adoption (~50 words)
+### Section 7: Approval and Routing Logic (~250 words)
 Key arguments:
-- Plan for onboarding team members to new protocols.
-- Importance of consistent adherence for success.
-Data sources: Internal training needs.
+- Defined approval stages (e.g., Draft -> Review -> Legal -> Final).
+- Clear roles responsible for each approval step.
+- Automated routing mechanisms (e.g., via project management tools, email notifications).
+- Escalation procedures for stalled approvals.
+Data sources: Internal company structure, workflow automation principles.
+
+### Section 8: Archiving and Deletion Policies (~100 words)
+Key arguments:
+- Criteria for archiving old versions or deprecated assets.
+- Retention periods.
+- Secure deletion procedures.
+Data sources: Data retention policies, legal compliance.
+
+### Section 9: Tools and Technologies (~100 words)
+Key arguments:
+- Git/GitHub for code version control.
+- Shared cloud storage (e.g., Google Drive, SharePoint) for documents.
+- Project management tools (e.g., Jira, Asana) for workflow tracking.
+- Specific tools for marketing asset management.
+Data sources: Current/planned tech stack.
+
+### Section 10: Roles and Responsibilities (~100 words)
+Key arguments:
+- Who is responsible for enforcing these guidelines.
+- Who is responsible for creating/maintaining specific asset types.
+- Who is responsible for approvals.
+Data sources: Internal team structure.
+
+### Section 11: Training and Documentation (~50 words)
+Key arguments:
+- Importance of training all team members on these protocols.
+- Maintaining up-to-date documentation of the spec.
+Data sources: Best practices for organizational change management.
