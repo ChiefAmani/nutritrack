@@ -1,94 +1,100 @@
 # CONTENT_OUTLINE.md
 
-## Project: NutriTrack Revision Control & File Management Specification
+## Project: My Business - Marketing Content Development
 ## Format: Markdown (.md)
-## Target audience: Development Team, Marketing Team, Project Managers, QA Engineers
-## Tone: Professional, technical, precise, authoritative
-## Total target length: ~1500-2000 words
+## Target audience: Businesses seeking [generic solution, e.g., efficiency, growth, innovation]
+## Tone: Professional, informative, engaging, problem-solving
+## Total target length: ~1500-2000 words (across all content pieces)
 
 ## Section Structure:
 
-### Section 1: Introduction (~150 words)
-Key arguments:
-- Purpose of the document: Establish clear, consistent standards for revision control and file management across all NutriTrack project artifacts, especially marketing assets.
-- Scope: Applies to all digital assets, code, documentation, and data files generated or used by NutriTrack teams.
-- Benefits: Improve collaboration, reduce errors, ensure data integrity, streamline workflows, facilitate auditing.
-Data sources: Internal company context.
+### 1. Social Media Content (~500 words total)
 
-### Section 2: Core Principles of Revision Control (~200 words)
+#### 1.1. Launch Announcement Post (100-150 words)
 Key arguments:
-- Immutability of released versions.
-- Traceability of changes.
-- Clear ownership and accountability for revisions.
-- Importance of branching and merging strategies (for code and potentially content).
-- Automation where possible.
-Data sources: Industry best practices for version control.
+- Announce official launch of "My Business"
+- Highlight primary benefit/problem solved
+- Call to action: Visit website/learn more
+Data sources: Approved campaign strategy, product brief
+Platforms: LinkedIn, X (Twitter), Facebook, Instagram (adapt length/visuals)
 
-### Section 3: File Naming Conventions (~150 words)
+#### 1.2. Feature Highlight Post (100-150 words)
 Key arguments:
-- Standardized format (e.g., `[ProjectCode]_[AssetType]_[Description]_[Version].ext`).
-- Use of hyphens/underscores, lowercase.
-- Avoid special characters.
-- Examples for different asset types (e.g., `marketing_campaign_calendar_v1.0.json`, `backend_user_api_v2.1.py`).
-Data sources: Internal company context, general file management guidelines.
+- Focus on a key feature of "My Business"
+- Explain how it benefits the user (e.g., saves time, increases revenue)
+- Call to action: Explore feature, sign up for demo
+Data sources: Approved campaign strategy, product documentation
+Platforms: LinkedIn, X (Twitter), Facebook, Instagram
 
-### Section 4: Directory Structure and Storage (~200 words)
+#### 1.3. Problem/Solution Post (100-150 words)
 Key arguments:
-- Hierarchical structure for project folders (e.g., `root/project_name/asset_type/sub_type`).
-- Centralized storage locations.
-- Access control and permissions.
-- Examples for common project types (e.g., `marketing/campaigns/2026_Q3/`, `backend/src/api/`).
-Data sources: Internal company context, cloud storage best practices.
+- Identify a common pain point for target audience
+- Position "My Business" as the effective solution
+- Call to action: Read blog post, download guide, try free trial
+Data sources: Approved campaign strategy, market research
+Platforms: LinkedIn, X (Twitter), Facebook, Instagram
 
-### Section 5: Versioning Scheme (~150 words)
+#### 1.4. Testimonial/Success Story Snippet (50-100 words)
 Key arguments:
-- Semantic Versioning (Major.Minor.Patch) for code.
-- Simple sequential versioning (v1.0, v1.1, v2.0) for documents and marketing assets.
-- Alpha/Beta/RC tags for pre-release versions.
-- How to increment versions.
-Data sources: Semantic Versioning specification, internal company needs.
+- Share a positive quote or brief success story from a user
+- Reinforce credibility and value
+- Call to action: Read full case study, learn more
+Data sources: Customer testimonials, case studies
+Platforms: LinkedIn, X (Twitter), Facebook, Instagram
 
-### Section 6: Workflow for Asset Creation and Revision (~300 words)
-Key arguments:
-- Step-by-step process from initial draft to final approval.
-- Check-in/check-out procedures (if applicable for non-code assets).
-- Branching and merging for collaborative content.
-- Role of pull requests/review processes.
-- Integration with project management tools.
-Data sources: Agile/Scrum workflows, Git workflow best practices.
+### 2. Email Campaign Content (~700 words total)
 
-### Section 7: Approval and Routing Logic (~250 words)
+#### 2.1. Welcome Email (150-200 words)
 Key arguments:
-- Defined approval stages (e.g., Draft -> Review -> Legal -> Final).
-- Clear roles responsible for each approval step.
-- Automated routing mechanisms (e.g., via project management tools, email notifications).
-- Escalation procedures for stalled approvals.
-Data sources: Internal company structure, workflow automation principles.
+- Welcome new users/subscribers to "My Business"
+- Briefly introduce the core value proposition
+- Guide to next steps (e.g., explore dashboard, schedule onboarding)
+Data sources: Approved campaign strategy, user onboarding flow
+Tone: Friendly, helpful, professional
 
-### Section 8: Archiving and Deletion Policies (~100 words)
+#### 2.2. Product Update / Feature Deep Dive Email (200-250 words)
 Key arguments:
-- Criteria for archiving old versions or deprecated assets.
-- Retention periods.
-- Secure deletion procedures.
-Data sources: Data retention policies, legal compliance.
+- Announce a new feature or significant update
+- Explain its benefits and how to use it
+- Include relevant links (e.g., knowledge base, demo video)
+Data sources: Product roadmap, feature documentation
+Tone: Informative, exciting, value-driven
 
-### Section 9: Tools and Technologies (~100 words)
+#### 2.3. Engagement / Re-engagement Email (150-200 words)
 Key arguments:
-- Git/GitHub for code version control.
-- Shared cloud storage (e.g., Google Drive, SharePoint) for documents.
-- Project management tools (e.g., Jira, Asana) for workflow tracking.
-- Specific tools for marketing asset management.
-Data sources: Current/planned tech stack.
+- Provide valuable content (e.g., industry insights, tips)
+- Remind users of "My Business" benefits
+- Call to action: Return to platform, explore new content, contact support
+Data sources: Content marketing plan, user analytics
+Tone: Value-driven, supportive
 
-### Section 10: Roles and Responsibilities (~100 words)
-Key arguments:
-- Who is responsible for enforcing these guidelines.
-- Who is responsible for creating/maintaining specific asset types.
-- Who is responsible for approvals.
-Data sources: Internal team structure.
+### 3. Ad Copy Variations (~300 words total)
 
-### Section 11: Training and Documentation (~50 words)
+#### 3.1. Short-Form Ad Copy (50-75 words per variation, 2 variations)
 Key arguments:
-- Importance of training all team members on these protocols.
-- Maintaining up-to-date documentation of the spec.
-Data sources: Best practices for organizational change management.
+- **Headline:** Catchy, problem-solution focused (e.g., "Boost Your Business Efficiency")
+- **Description:** Concise benefit statement, strong call to action (e.g., "Streamline operations. Get started today!")
+Data sources: Approved campaign strategy, target audience pain points
+Platforms: Google Ads, social media ads
+
+#### 3.2. Long-Form Ad Copy (100-150 words per variation, 1 variation)
+Key arguments:
+- Elaborate on the core problem "My Business" solves
+- Detail key features and their benefits
+- Strong, clear call to action with urgency (e.g., "Transform your workflow. Limited-time offer!")
+Data sources: Approved campaign strategy, competitor analysis
+Platforms: LinkedIn Ads, content marketing platforms
+
+## Key Messaging Pillars (from approved campaign strategy - placeholder)
+- [Pillar 1: e.g., Efficiency & Automation]
+- [Pillar 2: e.g., Growth & Scalability]
+- [Pillar 3: e.g., Innovation & Future-Proofing]
+
+## Call to Actions (CTAs)
+- Learn More
+- Get Started
+- Request Demo
+- Try Free
+- Sign Up
+- Explore Features
+- Read More
