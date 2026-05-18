@@ -1,16 +1,16 @@
-PROJECT: Automated Grocery List & Delivery Integration
-ARCHETYPE: code
+PROJECT: Strategic Partnership Outreach: Corporate Wellness Programs
+ARCHETYPE: MARKETING
 
 KEY QUESTIONS (rank by importance):
-1. What are the leading grocery delivery APIs or services that offer integration for generating grocery lists and facilitating delivery?
-2. What are the typical features, pricing models, and technical requirements for integrating such services?
-3. Are there any specific considerations for integrating with AI-generated meal plans (e.g., handling custom ingredients, dietary restrictions)?
+1. What are the common features and offerings of successful corporate wellness nutrition programs?
+2. What are the key pain points and decision-making criteria for HR/benefits managers when selecting corporate wellness partners?
+3. Who are the main competitors in the corporate nutrition wellness space, and what are their value propositions?
 
 SOURCES TO CHECK:
-- Primary: Grocery delivery service API documentation (e.g., Instacart, Amazon Fresh, other regional services).
-- Secondary: Developer forums, tech blogs, articles on grocery API integrations.
-- Competitive: Look for existing nutrition apps with similar features.
+- Primary: Corporate wellness program providers' websites, HR/benefits industry publications.
+- Secondary: Articles on corporate wellness trends, B2B SaaS reviews for wellness platforms.
+- Competitive: Websites of companies offering corporate nutrition programs.
 
-DELIVERABLE: TECHNICAL_SPEC.md
+DELIVERABLE: CAMPAIGN_STRATEGY.md
 
-SUCCESS CRITERIA: A comprehensive TECHNICAL_SPEC.md detailing the integration strategy, including API choices, data models, and technical requirements for automated grocery list generation and delivery.
+SUCCESS CRITERIA: A comprehensive CAMPAIGN_STRATEGY.md that outlines how NutriTrack can effectively target and partner with corporate wellness programs, including product/service overview, target audience personas (HR/benefits managers), competitor analysis, platform strategy (B2B outreach), messaging pillars, and tone of voice.
