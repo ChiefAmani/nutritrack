@@ -6,7 +6,7 @@
 
 **Post 1: The Time-Saving Hook**
 *   **Platform:** LinkedIn
-*   **Post Text:** Stop sacrificing your health for your career. Busy professionals, imagine reclaiming hours each week while still hitting your nutrition goals. NutriTrack’s AI meal planning and grocery lists do the heavy lifting. More time, better health.
+*   **Post Text:** Stop sacrificing your health for your career. Busy professionals, imagine reclaiming hours each week while still hitting your nutrition goals. NutriTrack�s AI meal planning and grocery lists do the heavy lifting. More time, better health.
 *   **Hashtags:** #NutriTrack #AIMealPlanning #BusyProfessional #HealthTech #WorkLifeBalance
 *   **Suggested Time:** Monday, 8:00 AM (EST)
 
