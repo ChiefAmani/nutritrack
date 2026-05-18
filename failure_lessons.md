@@ -5,11 +5,11 @@
 
 
 ### Iteration 2, Phase 1
-**QA Rejection — Failure Lesson:**
+**QA Rejected — Revision Routing:**
 
-*   Iteration 2 features failed core functional QA; delivered code did not meet defined acceptance criteria or performance benchmarks.
-*   Root cause: Insufficient pre-QA validation and ambiguous "done" definitions. Requirements lacked explicit, measurable acceptance criteria, leading to a disconnect between development and QA.
-*   Next iteration: Mandate explicit, testable acceptance criteria for every story. Integrate QA into sprint planning. Implement developer-led pre-QA checks using defined criteria before formal handoff.
+*   **What specifically went wrong:** Iteration 2 failed QA due to "Revision Routing," indicating a breakdown in the process or content of submitted revisions.
+*   **Root cause:** Ambiguous revision submission criteria and undocumented routing protocols led to incomplete or incorrectly prepared deliverables for QA.
+*   **What the team must do differently next iteration:** Establish and enforce a clear "Definition of Done" for all revisions, including mandatory pre-QA checklists and explicit routing steps.
 
 
 ### Iteration 3, Phase 1
