@@ -1,64 +1,52 @@
 # Social Media Posts
 
-## LinkedIn Post 1
-**Platform:** LinkedIn
-**Post Text:**
-Busy professional? Your nutrition shouldn't be another stressor. NutriTrack's AI meal planning saves you hours, delivering personalized plans that fit your demanding schedule. Stop guessing, start achieving.
-**Hashtags:** #NutriTrack #AIMealPlanning #BusyProfessional #HealthTech #NutritionCoaching
-**Suggested Time:** Monday, 8:00 AM (EST)
+## LinkedIn
 
-## LinkedIn Post 2
-**Platform:** LinkedIn
-**Post Text:**
-Ever wish you had a personal nutritionist in your pocket? NutriTrack offers AI-driven calorie and macro tracking, weekly reports, and coaching nudges. Get data-driven insights without the manual grind.
-**Hashtags:** #NutriTrack #AIWellness #MacroTracking #NutritionGoals #Productivity
-**Suggested Time:** Wednesday, 1:00 PM (EST)
+**Post 1: Time-Saving Meal Planning**
+*   **Text:** Stop wasting hours on meal prep. NutriTrack's AI plans your week in minutes, tailored to *your* goals. Get back your evenings.
+*   **Hashtags:** #NutriTrack #AIMealPlanning #BusyProfessional #TimeSaver #HealthyHabits
+*   **Suggested Time:** Monday, 8:00 AM (Commute time)
 
-## LinkedIn Post 3
-**Platform:** LinkedIn
-**Post Text:**
-Grocery shopping a headache? NutriTrack generates smart grocery lists based on your personalized meal plan. Spend less time planning, more time living. Simplify your healthy lifestyle.
-**Hashtags:** #NutriTrack #GroceryList #MealPrep #HealthyLiving #TimeSaver
-**Suggested Time:** Friday, 11:00 AM (EST)
+**Post 2: Personalized Nutrition, No Guesswork**
+*   **Text:** Generic diet advice doesn't work. Our AI learns your body, your schedule, your preferences. Get truly personalized nutrition that fits your life.
+*   **Hashtags:** #PersonalizedNutrition #AIFitness #HealthTech #DataDrivenHealth #NutriTrack
+*   **Suggested Time:** Wednesday, 12:30 PM (Lunch break)
 
-## Instagram Post 1
-**Platform:** Instagram
-**Post Text:**
-Tired of generic diet advice? NutriTrack's AI crafts meal plans *just for you*. Fuel your busy life without the guesswork. Link in bio to reclaim your time and health!
-**Hashtags:** #NutriTrack #PersonalizedNutrition #AIHealth #BusyLife #MealPlanningMadeEasy #WellnessJourney
-**Suggested Time:** Tuesday, 10:00 AM (EST)
+**Post 3: Track Smarter, Not Harder**
+*   **Text:** Ditch manual calorie counting. NutriTrack automates macro tracking, so you see progress without the daily grind. Focus on results, not data entry.
+*   **Hashtags:** #CalorieTracking #MacroTracking #AIAutomation #FitnessGoals #NutriTrack
+*   **Suggested Time:** Friday, 10:00 AM (End of week motivation)
 
-## Instagram Post 2
-**Platform:** Instagram
-**Post Text:**
-Unlock your best self! NutriTrack tracks your calories & macros effortlessly, then gives you weekly reports to keep you on track. No more manual logging, just smart insights.
-**Hashtags:** #NutriTrack #CalorieTracking #MacroGoals #HealthAndWellness #DataDriven #SmartNutrition
-**Suggested Time:** Thursday, 2:00 PM (EST)
+## Instagram
 
-## Instagram Post 3
-**Platform:** Instagram
-**Post Text:**
-Your week, simplified. Get automated grocery lists from NutriTrack, perfectly matched to your meal plan. Healthy eating just got easier. Tap the link to try it!
-**Hashtags:** #NutriTrack #GroceryHack #MealPrepIdeas #HealthyHabits #EffortlessEating #NutritionCoach
-**Suggested Time:** Saturday, 9:00 AM (EST)
+**Post 1: Visual Meal Inspiration**
+*   **Text:** Imagine delicious, healthy meals planned for you. Our AI makes it real. Swipe to see a sample day! (Image: Visually appealing, healthy meal collage)
+*   **Hashtags:** #NutriTrackMeals #HealthyEating #MealPrepIdeas #Foodie #AIHealth #BusyLife
+*   **Suggested Time:** Tuesday, 7:00 PM (Post-work scroll)
 
-## Twitter Post 1
-**Platform:** Twitter
-**Post Text:**
-Busy pros: Stop stressing about meals. NutriTrack's AI plans your nutrition, saving you hours weekly. Get personalized plans that work for *your* schedule. #NutriTrack #AIMealPlanning
-**Hashtags:** #NutriTrack #AIMealPlanning #BusyProfessional #HealthTech
-**Suggested Time:** Monday, 9:00 AM (EST)
+**Post 2: Your Health, Simplified**
+*   **Text:** Juggling work and wellness? NutriTrack gives you back control. Personalized plans, grocery lists, and progress reports. All in one app.
+*   **Hashtags:** #WellnessJourney #HealthSimplified #NutriTrackApp #SelfCare #ProfessionalWellness
+*   **Suggested Time:** Thursday, 9:00 AM (Morning routine)
 
-## Twitter Post 2
-**Platform:** Twitter
-**Post Text:**
-Want to eat healthier but lack time? NutriTrack automates calorie/macro tracking & generates grocery lists. Smart nutrition, zero hassle. #NutriTrack #AIWellness
-**Hashtags:** #NutriTrack #AIWellness #NutritionGoals #TimeSaver
-**Suggested Time:** Wednesday, 1:00 PM (EST)
+**Post 3: Real Results, Real Fast**
+*   **Text:** Our users are seeing incredible transformations. What could personalized AI nutrition do for you? Link in bio to start your journey.
+*   **Hashtags:** #FitnessTransformation #NutritionCoach #AIResults #GetHealthy #NutriTrackSuccess
+*   **Suggested Time:** Saturday, 11:00 AM (Weekend motivation)
 
-## Twitter Post 3
-**Platform:** Twitter
-**Post Text:**
-Personalized nutrition reports + coaching nudges, all powered by AI. NutriTrack helps busy professionals stay on track effortlessly. Try it! #NutriTrack #NutritionCoaching
-**Hashtags:** #NutriTrack #NutritionCoaching #DataDriven #HealthyHabits
-**Suggested Time:** Friday, 10:00 AM (EST)
+## Facebook
+
+**Post 1: The End of Diet Confusion**
+*   **Text:** Overwhelmed by conflicting diet advice? NutriTrack cuts through the noise with AI-driven plans built just for you. No fads, just science.
+*   **Hashtags:** #NutriTrack #DietTips #HealthyLifestyle #NutritionScience #AIWellness
+*   **Suggested Time:** Monday, 6:00 PM (Evening scroll)
+
+**Post 2: Free Up Your Weekends**
+*   **Text:** Spend less time planning and more time living. NutriTrack generates your grocery lists and meal plans, so your weekends are truly yours.
+*   **Hashtags:** #WeekendVibes #MealPrepMadeEasy #NutriTrackLife #WorkLifeBalance #HealthyLiving
+*   **Suggested Time:** Wednesday, 7:30 PM (Family time)
+
+**Post 3: Your Personal Nutrition Coach, 24/7**
+*   **Text:** Get expert guidance without the high cost. NutriTrack provides AI coaching nudges and weekly reports to keep you on track.
+*   **Hashtags:** #NutritionCoach #AIAssistant #HealthGoals #NutriTrackSupport #SmartNutrition
+*   **Suggested Time:** Sunday, 1:00 PM (Weekend planning)
