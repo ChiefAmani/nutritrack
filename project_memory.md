@@ -1,8 +1,8 @@
 
 
-## 2026-05-17 — Software/Code Project Approved for NutriTrack Growth
-
-*   **Decision:** Software/Code Project approved, directly supporting NutriTrack's 90-day goal of 500 paying users.
-*   **Approach:** Focused development on core AI nutrition coaching SaaS features (meal planning, tracking, reports, email nudges) proved effective.
-*   **Effectiveness:** Project execution met all requirements, resulting in a successful "approved" verdict.
-*   **Next Steps:** No specific failure lessons identified; continue current development and approval processes for future projects.
+## 2026-05-17 — Software project halted at QA; rejection details missing.
+*   Software project initiated for NutriTrack's AI nutrition coaching platform, targeting 500 paying users.
+*   Project halted at QA; post-mortem impossible due to missing rejection specifics.
+*   Effective: Process identified critical information gap in QA feedback loop.
+*   Next time: Mandate comprehensive, structured QA rejection reports for all software deliverables.
+*   Next time: Integrate formal QA reporting templates into project lifecycle.
