@@ -1,36 +1,96 @@
 # DATA_SPEC.md
 
-## Project: NutriTrack KPI Dashboard
+## Project: My Business Financial Model
 ## Format: Spreadsheet (e.g., Google Sheets, Excel)
-## Purpose: Track key performance indicators for user acquisition and revenue.
+## Purpose: Define key financial KPIs, quantify risks, and provide framework for business model validation.
 
-## Sheet Name: KPI_Dashboard
+## Sheet: Assumptions
 
-## Column Headers and Data Types:
-- Date: Date (YYYY-MM-DD)
-- New_Paying_Users: Integer
-- Total_Paying_Users: Integer
-- Monthly_Recurring_Revenue_MRR: Currency (e.g., $X.XX)
-- Churn_Rate: Percentage (e.g., 0.05 for 5%)
-- Customer_Acquisition_Cost_CAC: Currency (e.g., $X.XX)
-- Lifetime_Value_LTV: Currency (e.g., $X.XX)
+### Description
+This sheet will contain all the input variables and assumptions used in the financial model.
 
-## Formula Definitions (Conceptual):
-- Total_Paying_Users: Cumulative sum of New_Paying_Users minus churned users.
-- Monthly_Recurring_Revenue_MRR: Total_Paying_Users * Average_Subscription_Price (assuming $9/user based on $4500 MRR / 500 users goal).
-- Churn_Rate: (Number of churned users in period / Total paying users at start of period) * 100.
-- Customer_Acquisition_Cost_CAC: Total marketing/sales spend in period / New_Paying_Users in period.
-- Lifetime_Value_LTV: Average Revenue Per User (ARPU) * (1 / Churn_Rate).
+### Column Headers
+- **Parameter**: String (e.g., "Customer Acquisition Cost", "Average Selling Price")
+- **Value**: Number (e.g., 50, 100)
+- **Unit**: String (e.g., "$", "units", "%")
+- **Scenario (Bear)**: Number (e.g., 40, 80)
+- **Scenario (Base)**: Number (e.g., 50, 100)
+- **Scenario (Bull)**: Number (e.g., 60, 120)
+- **Notes**: String (e.g., "Cost to acquire one new customer", "Price per unit sold")
 
-## Sample Data (Illustrative):
-Date,New_Paying_Users,Total_Paying_Users,Monthly_Recurring_Revenue_MRR,Churn_Rate,Customer_Acquisition_Cost_CAC,Lifetime_Value_LTV
-2026-05-01,10,10,$90.00,0.00,50.00,90.00
-2026-05-08,15,25,$225.00,0.00,40.00,90.00
-2026-05-15,20,45,$405.00,0.00,35.00,90.00
-2026-05-22,25,70,$630.00,0.00,30.00,90.00
-2026-05-29,30,100,$900.00,0.00,28.00,90.00
+### Sample Data
+| Parameter                 | Value | Unit | Scenario (Bear) | Scenario (Base) | Scenario (Bull) | Notes                               |
+|---------------------------|-------|------|-----------------|-----------------|-----------------|-------------------------------------|
+| Customer Acquisition Cost | 50    | $    | 60              | 50              | 40              | Cost to acquire one new customer    |
+| Average Selling Price     | 100   | $    | 90              | 100             | 110             | Price per unit sold                 |
+| Cost of Goods Sold (COGS) | 30    | $    | 35              | 30              | 25              | Direct cost per unit sold           |
+| Monthly Customers Acquired| 100   | units| 80              | 100             | 120             | New customers per month             |
+| Churn Rate                | 5     | %    | 7               | 5               | 3               | Percentage of customers lost monthly|
+| Operating Expenses        | 2000  | $    | 2200            | 2000            | 1800            | Fixed monthly expenses              |
 
-## Formatting Guidelines:
-- Dates: YYYY-MM-DD
-- Currencies: Two decimal places, leading dollar sign.
-- Percentages: Two decimal places.
+## Sheet: Unit Economics
+
+### Description
+Calculates the profitability of a single unit or customer.
+
+### Column Headers
+- **Metric**: String (e.g., "Revenue per Unit", "COGS per Unit", "Gross Profit per Unit")
+- **Value (Base)**: Number
+- **Value (Bear)**: Number
+- **Value (Bull)**: Number
+
+### Formula Definitions (Logic)
+- **Revenue per Unit**: `Assumptions!Average Selling Price`
+- **COGS per Unit**: `Assumptions!Cost of Goods Sold (COGS)`
+- **Gross Profit per Unit**: `Revenue per Unit - COGS per Unit`
+- **Customer Lifetime Value (CLTV)**: `(Average Selling Price - COGS) * (1 / Churn Rate)` (simplified)
+- **Payback Period**: `Customer Acquisition Cost / Gross Profit per Unit` (simplified)
+
+## Sheet: P&L (Monthly)
+
+### Description
+Monthly Profit & Loss statement, projecting revenue, costs, and profit over time.
+
+### Column Headers
+- **Month**: Date (e.g., "2026-05", "2026-06")
+- **Scenario**: String (e.g., "Bear", "Base", "Bull")
+- **Customers (Start of Month)**: Number
+- **New Customers**: Number (from Assumptions)
+- **Churned Customers**: Number
+- **Customers (End of Month)**: Number
+- **Total Revenue**: Number
+- **Total COGS**: Number
+- **Gross Profit**: Number
+- **Operating Expenses**: Number (from Assumptions)
+- **Net Profit/Loss**: Number
+
+### Formula Definitions (Logic)
+- **Customers (Start of Month)**: Previous month's `Customers (End of Month)`
+- **New Customers**: `Assumptions!Monthly Customers Acquired` (adjusted for scenario)
+- **Churned Customers**: `Customers (Start of Month) * Assumptions!Churn Rate` (adjusted for scenario)
+- **Customers (End of Month)**: `Customers (Start of Month) + New Customers - Churned Customers`
+- **Total Revenue**: `Customers (End of Month) * Assumptions!Average Selling Price` (adjusted for scenario)
+- **Total COGS**: `Customers (End of Month) * Assumptions!Cost of Goods Sold (COGS)` (adjusted for scenario)
+- **Gross Profit**: `Total Revenue - Total COGS`
+- **Operating Expenses**: `Assumptions!Operating Expenses` (adjusted for scenario)
+- **Net Profit/Loss**: `Gross Profit - Operating Expenses`
+
+## Sheet: KPIs
+
+### Description
+Key Performance Indicators derived from the financial model, tracked monthly or quarterly.
+
+### Column Headers
+- **KPI**: String (e.g., "Monthly Recurring Revenue", "Customer Acquisition Cost", "Gross Margin %")
+- **Month 1 Value**: Number
+- **Month 2 Value**: Number
+- **Month 3 Value**: Number
+- **Trend**: String (e.g., "Increasing", "Stable", "Decreasing")
+
+### Formula Definitions (Logic)
+- **Monthly Recurring Revenue (MRR)**: From `P&L (Monthly)!Total Revenue`
+- **Customer Acquisition Cost (CAC)**: From `Assumptions!Customer Acquisition Cost`
+- **Gross Margin %**: `(P&L (Monthly)!Gross Profit / P&L (Monthly)!Total Revenue) * 100`
+- **Net Profit Margin %**: `(P&L (Monthly)!Net Profit/Loss / P&L (Monthly)!Total Revenue) * 100`
+- **Customer Lifetime Value (CLTV)**: From `Unit Economics!Customer Lifetime Value`
+- **CLTV:CAC Ratio**: `CLTV / CAC`
