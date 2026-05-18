@@ -1,0 +1,214 @@
+{
+  "assumptions": {
+    "base_case": {
+      "arpu_monthly": 9.00,
+      "churn_rate_monthly": 0.08,
+      "gross_margin_percent": 0.80,
+      "cac": 75.00,
+      "new_users_per_month": 181,
+      "monthly_opex_fixed": 30075.00,
+      "initial_cash": 50000.00
+    },
+    "bear_case": {
+      "arpu_monthly": 7.20,
+      "churn_rate_monthly": 0.096,
+      "gross_margin_percent": 0.64,
+      "cac": 90.00,
+      "new_users_per_month": 145,
+      "monthly_opex_fixed": 36090.00,
+      "initial_cash": 50000.00
+    },
+    "bull_case": {
+      "arpu_monthly": 10.80,
+      "churn_rate_monthly": 0.064,
+      "gross_margin_percent": 0.96,
+      "cac": 60.00,
+      "new_users_per_month": 217,
+      "monthly_opex_fixed": 24060.00,
+      "initial_cash": 50000.00
+    }
+  },
+  "unit_economics": {
+    "base_case": {
+      "arpu_monthly": 9.00,
+      "monthly_gross_profit_per_customer": 7.20,
+      "ltv": 90.00,
+      "cac": 75.00,
+      "ltv_cac_ratio": 1.20,
+      "payback_period_months": 10.42
+    },
+    "bear_case": {
+      "arpu_monthly": 7.20,
+      "monthly_gross_profit_per_customer": 4.61,
+      "ltv": 48.02,
+      "cac": 90.00,
+      "ltv_cac_ratio": 0.53,
+      "payback_period_months": 19.52
+    },
+    "bull_case": {
+      "arpu_monthly": 10.80,
+      "monthly_gross_profit_per_customer": 10.37,
+      "ltv": 162.03,
+      "cac": 60.00,
+      "ltv_cac_ratio": 2.70,
+      "payback_period_months": 5.79
+    }
+  },
+  "financial_model_3_months": {
+    "base_case": {
+      "month_1": {
+        "starting_users": 0,
+        "new_users": 181,
+        "churned_users": 0,
+        "ending_users": 181,
+        "revenue": 1629.00,
+        "cogs": 325.80,
+        "gross_profit": 1303.20,
+        "operating_expenses": 30075.00,
+        "net_income": -28771.80,
+        "starting_cash": 50000.00,
+        "ending_cash": 21228.20,
+        "cash_runway_months": 0.74
+      },
+      "month_2": {
+        "starting_users": 181,
+        "new_users": 181,
+        "churned_users": 14,
+        "ending_users": 348,
+        "revenue": 3132.00,
+        "cogs": 626.40,
+        "gross_profit": 2505.60,
+        "operating_expenses": 30075.00,
+        "net_income": -27569.40,
+        "starting_cash": 21228.20,
+        "ending_cash": -6341.20,
+        "cash_runway_months": -0.23
+      },
+      "month_3": {
+        "starting_users": 348,
+        "new_users": 181,
+        "churned_users": 28,
+        "ending_users": 501,
+        "revenue": 4509.00,
+        "cogs": 901.80,
+        "gross_profit": 3607.20,
+        "operating_expenses": 30075.00,
+        "net_income": -26467.80,
+        "starting_cash": -6341.20,
+        "ending_cash": -32809.00,
+        "cash_runway_months": -1.24
+      }
+    },
+    "bear_case": {
+      "month_1": {
+        "starting_users": 0,
+        "new_users": 145,
+        "churned_users": 0,
+        "ending_users": 145,
+        "revenue": 1044.00,
+        "cogs": 375.84,
+        "gross_profit": 668.16,
+        "operating_expenses": 36090.00,
+        "net_income": -35421.84,
+        "starting_cash": 50000.00,
+        "ending_cash": 14578.16,
+        "cash_runway_months": 0.41
+      },
+      "month_2": {
+        "starting_users": 145,
+        "new_users": 145,
+        "churned_users": 14,
+        "ending_users": 276,
+        "revenue": 1987.20,
+        "cogs": 715.39,
+        "gross_profit": 1271.81,
+        "operating_expenses": 36090.00,
+        "net_income": -34818.19,
+        "starting_cash": 14578.16,
+        "ending_cash": -20239.99,
+        "cash_runway_months": -0.58
+      },
+      "month_3": {
+        "starting_users": 276,
+        "new_users": 145,
+        "churned_users": 27,
+        "ending_users": 394,
+        "revenue": 2836.80,
+        "cogs": 1021.25,
+        "gross_profit": 1815.55,
+        "operating_expenses": 36090.00,
+        "net_income": -34274.45,
+        "starting_cash": -20239.99,
+        "ending_cash": -54514.44,
+        "cash_runway_months": -1.59
+      }
+    },
+    "bull_case": {
+      "month_1": {
+        "starting_users": 0,
+        "new_users": 217,
+        "churned_users": 0,
+        "ending_users": 217,
+        "revenue": 2343.60,
+        "cogs": 93.74,
+        "gross_profit": 2249.86,
+        "operating_expenses": 24060.00,
+        "net_income": -21810.14,
+        "starting_cash": 50000.00,
+        "ending_cash": 28189.86,
+        "cash_runway_months": 1.29
+      },
+      "month_2": {
+        "starting_users": 217,
+        "new_users": 217,
+        "churned_users": 14,
+        "ending_users": 420,
+        "revenue": 4536.00,
+        "cogs": 181.44,
+        "gross_profit": 4354.56,
+        "operating_expenses": 24060.00,
+        "net_income": -19705.44,
+        "starting_cash": 28189.86,
+        "ending_cash": 8484.42,
+        "cash_runway_months": 0.43
+      },
+      "month_3": {
+        "starting_users": 420,
+        "new_users": 217,
+        "churned_users": 27,
+        "ending_users": 610,
+        "revenue": 6588.00,
+        "cogs": 263.52,
+        "gross_profit": 6324.48,
+        "operating_expenses": 24060.00,
+        "net_income": -17735.52,
+        "starting_cash": 8484.42,
+        "ending_cash": -9251.10,
+        "cash_runway_months": -0.52
+      }
+    }
+  },
+  "risks": [
+    {
+      "risk_name": "Financial Risk: Cash Runway / Insufficient Funding",
+      "probability": 5,
+      "impact": 5,
+      "risk_score": 25,
+      "mitigation": "Secure additional seed funding, drastically reduce operating expenses, or increase ARPU/reduce CAC."
+    },
+    {
+      "risk_name": "Financial Risk: Poor Unit Economics (LTV:CAC Ratio)",
+      "probability": 4,
+      "impact": 4,
+      "risk_score": 16,
+      "mitigation": "Optimize pricing strategy, improve retention (reduce churn), optimize marketing channels for lower CAC, enhance product value to increase LTV."
+    },
+    {
+      "risk_name": "Execution Risk: Customer Acquisition Cost (CAC) Validation",
+      "probability": 3,
+      "impact": 3,
+      "risk_score": 9,
+      "mitigation": "Run small-scale, measurable marketing experiments to validate CAC assumptions quickly. Focus on organic growth channels initially."
+    }
+  ]
+}
