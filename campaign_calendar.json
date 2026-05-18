@@ -1,0 +1,137 @@
+[
+  {
+    "platform": "LinkedIn",
+    "text": "Stop wasting hours on meal prep. NutriTrack's AI plans your perfect week in minutes. Get personalized meals, grocery lists, and hit your health goals without the hassle.",
+    "hashtags": "#NutriTrack #AIMealPlanning #BusyProfessional #HealthTech #TimeSaver",
+    "image_description": "Professional looking person smiling while looking at a healthy meal, with a clock in the background showing time saved.",
+    "scheduled_date": "2026-05-17",
+    "scheduled_time": "08:00 AM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Email",
+    "text": "Welcome to NutriTrack: Your AI Nutrition Journey Starts Now!",
+    "hashtags": "",
+    "image_description": "N/A",
+    "scheduled_date": "2026-05-18",
+    "scheduled_time": "09:00 AM",
+    "post_type": "Email Send - Welcome"
+  },
+  {
+    "platform": "Instagram",
+    "text": "Your diet, simplified. Imagine delicious, personalized meals tailored to *your* goals, delivered weekly. No guesswork, just results. What's your favorite healthy meal?",
+    "hashtags": "#NutriTrack #PersonalizedNutrition #HealthyEating #MealPrepMadeEasy #WellnessJourney",
+    "image_description": "Delicious, healthy meal with a clean, modern aesthetic.",
+    "scheduled_date": "2026-05-19",
+    "scheduled_time": "12:00 PM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Facebook",
+    "text": "Ever wonder if you're *really* hitting your macros? NutriTrack tracks everything, then gives you clear, weekly reports. Understand your body, optimize your diet. It's data-driven health, made easy.",
+    "hashtags": "#NutriTrack #CalorieTracking #MacroTracking #NutritionReport #DataDrivenHealth",
+    "image_description": "Infographic showing personalized data points or a graph of progress.",
+    "scheduled_date": "2026-05-20",
+    "scheduled_time": "07:00 PM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Email",
+    "text": "Stop Stressing About Meals: Your AI-Powered Plan Awaits",
+    "hashtags": "",
+    "image_description": "N/A",
+    "scheduled_date": "2026-05-21",
+    "scheduled_time": "10:00 AM",
+    "post_type": "Email Send - Feature Deep Dive (Meal Planning)"
+  },
+  {
+    "platform": "LinkedIn",
+    "text": "Building healthy habits is tough. Our AI coaching nudges keep you on track, offering encouragement and insights when you need them most. It's like having a nutritionist in your pocket.",
+    "hashtags": "#NutriTrack #AICoaching #HealthyHabits #WellnessTech #ProfessionalWellness",
+    "image_description": "Image of a smartphone screen showing a coaching nudge notification.",
+    "scheduled_date": "2026-05-22",
+    "scheduled_time": "10:00 AM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Instagram",
+    "text": "Tired of generic diet advice? Get a plan that actually fits *your* life. NutriTrack's AI personalizes everything, from meals to tracking. #PersonalizedNutrition #HealthGoals #NutriTrack",
+    "hashtags": "#PersonalizedNutrition #HealthGoals #NutriTrack #AIHealth",
+    "image_description": "Image of a diverse group of healthy, active professionals.",
+    "scheduled_date": "2026-05-24",
+    "scheduled_time": "01:00 PM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Email",
+    "text": "Beyond Calories: Understand Your Body with Smart Nutrition Reports",
+    "hashtags": "",
+    "image_description": "N/A",
+    "scheduled_date": "2026-05-25",
+    "scheduled_time": "11:00 AM",
+    "post_type": "Email Send - Feature Deep Dive (Tracking/Reports)"
+  },
+  {
+    "platform": "Facebook",
+    "text": "Unlock your peak performance. NutriTrack helps busy professionals optimize their diet with data-driven insights and effortless tracking. What's your biggest nutrition challenge?",
+    "hashtags": "#PeakPerformance #NutritionOptimization #BusyLife #NutriTrack",
+    "image_description": "Image of a professional looking focused and energetic.",
+    "scheduled_date": "2026-05-27",
+    "scheduled_time": "06:00 PM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "LinkedIn",
+    "text": "Time is your most valuable asset. NutriTrack saves it by automating meal planning and grocery lists. Focus on what matters, let AI handle your nutrition. #Efficiency #AIAutomation #ProfessionalWellness",
+    "hashtags": "#Efficiency #AIAutomation #ProfessionalWellness #NutriTrack",
+    "image_description": "Image of a calendar or planner with healthy food icons.",
+    "scheduled_date": "2026-05-29",
+    "scheduled_time": "09:00 AM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Email",
+    "text": "\"I Finally Have Time for Myself!\" - NutriTrack Success Stories",
+    "hashtags": "",
+    "image_description": "N/A",
+    "scheduled_date": "2026-06-01",
+    "scheduled_time": "09:00 AM",
+    "post_type": "Email Send - Testimonial/Success Story"
+  },
+  {
+    "platform": "Instagram",
+    "text": "Grocery shopping made easy! NutriTrack generates smart lists based on your meal plan. Spend less time in aisles, more time living. #GroceryList #MealPrepHack #HealthyLiving #NutriTrack",
+    "hashtags": "#GroceryList #MealPrepHack #HealthyLiving #NutriTrack #SmartShopping",
+    "image_description": "Image of a neatly organized grocery cart or a person easily navigating a grocery store.",
+    "scheduled_date": "2026-06-03",
+    "scheduled_time": "02:00 PM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Facebook",
+    "text": "Feeling stuck with your health goals? Our AI coaching nudges provide the motivation and insights you need to stay consistent. Small changes, big results. #Motivation #HealthCoaching #NutriTrack",
+    "hashtags": "#Motivation #HealthCoaching #NutriTrack #Consistency",
+    "image_description": "Image of a person receiving a positive notification on their phone.",
+    "scheduled_date": "2026-06-05",
+    "scheduled_time": "08:00 PM",
+    "post_type": "Social Post"
+  },
+  {
+    "platform": "Email",
+    "text": "Your Health Goals Are Waiting: Join NutriTrack Today",
+    "hashtags": "",
+    "image_description": "N/A",
+    "scheduled_date": "2026-06-07",
+    "scheduled_time": "10:00 AM",
+    "post_type": "Email Send - Urgency/Call to Action"
+  },
+  {
+    "platform": "LinkedIn",
+    "text": "NutriTrack: The AI advantage for your nutrition. Personalized plans, effortless tracking, and smart coaching. Designed for the demands of your professional life. #AIWellness #ProfessionalHealth #NutriTrack",
+    "hashtags": "#AIWellness #ProfessionalHealth #NutriTrack #FutureOfNutrition",
+    "image_description": "Modern, sleek image of the NutriTrack app interface on a tablet or laptop.",
+    "scheduled_date": "2026-06-10",
+    "scheduled_time": "11:00 AM",
+    "post_type": "Social Post"
+  }
+]
