@@ -1,282 +1,147 @@
 
 [
   {
-    "platform": "Google Ads",
-    "text": "NutriTrack AI Meal Plans for Pros. Save Hours on Nutrition. Personalized Health Goals. NutriTrack offers AI meal planning, macro tracking & grocery lists for busy professionals. Get started today! Reclaim your time. Achieve your health goals with data-driven, personalized nutrition coaching.",
-    "headlines": ["AI Meal Plans for Pros", "Save Hours on Nutrition", "Personalized Health Goals"],
-    "descriptions": ["NutriTrack offers AI meal planning, macro tracking & grocery lists for busy professionals. Get started today!", "Reclaim your time. Achieve your health goals with data-driven, personalized nutrition coaching."],
-    "paths": ["/meal-planning", "/ai-nutrition"],
-    "image_description": "Abstract AI brain with healthy food icons.",
-    "scheduled_date": "2026-05-17",
-    "scheduled_time": "00:00 AM",
-    "post_type": "ad_launch"
-  },
-  {
-    "platform": "Meta Ads",
-    "text": "Busy professional? Your nutrition shouldn't be another chore. NutriTrack's AI crafts personalized meal plans, tracks macros effortlessly, and generates grocery lists. Save hours, eat smarter, live better. Tired of generic diet advice? Get truly personalized nutrition with NutriTrack. AI-driven meal planning, easy tracking, and weekly reports designed for your demanding lifestyle. Fuel your success.",
-    "headlines": ["AI Nutrition for Pros", "Reclaim Your Time & Health"],
-    "description": "Personalized plans, effortless tracking.",
-    "image_description": "Professional looking at a phone with healthy food, AI elements.",
-    "scheduled_date": "2026-05-17",
-    "scheduled_time": "00:00 AM",
-    "post_type": "ad_launch"
-  },
-  {
-    "platform": "LinkedIn Ads",
-    "text": "AI Nutrition Coaching for Busy Professionals: Optimize Your Health. NutriTrack offers AI meal planning, macro tracking, and grocery lists. Reclaim hours, achieve goals.",
-    "headline": "AI Nutrition Coaching for Busy Professionals: Optimize Your Health",
-    "description": "NutriTrack offers AI meal planning, macro tracking, and grocery lists. Reclaim hours, achieve goals.",
-    "call_to_action": "Learn More",
-    "image_description": "Professional in a modern office setting, healthy meal on desk.",
-    "scheduled_date": "2026-05-17",
-    "scheduled_time": "00:00 AM",
-    "post_type": "ad_launch"
-  },
-  {
-    "platform": "Email",
-    "subject": "Welcome to NutriTrack: Your AI Nutrition Coach Awaits!",
-    "text": "Hi [Name],
-
-Welcome to NutriTrack! We're thrilled to have you on board. As a busy professional, you know how challenging it can be to prioritize health amidst a demanding schedule. That's exactly why we built NutriTrack.
-
-Our AI-powered platform is designed to simplify your nutrition, saving you hours each week while helping you achieve your health goals. No more guesswork, no more endless meal prep planning.
-
-**What you get with NutriTrack:**
-- **Personalized AI Meal Plans:** Tailored to your preferences, goals, and dietary needs.
-- **Effortless Calorie & Macro Tracking:** Log your food in seconds, not minutes.
-- **Automated Grocery Lists:** Generated instantly from your meal plan.
-- **Weekly Nutrition Reports:** Understand your progress with data-driven insights.
-- **Coaching Nudges:** Stay on track with smart, encouraging emails.
-
-Ready to transform your nutrition and reclaim your time? Let's get started!
-",
-    "cta_text": "Start Your Personalized Plan Now",
-    "cta_url": "[Link to NutriTrack App/Onboarding]",
-    "image_description": "Welcome email banner with NutriTrack logo.",
-    "scheduled_date": "2026-05-18",
-    "scheduled_time": "09:00 AM",
-    "post_type": "email"
-  },
-  {
     "platform": "LinkedIn",
-    "text": "Busy professionals, ever feel like healthy eating is a luxury you can't afford time-wise? NutriTrack changes that. Our AI crafts personalized meal plans, tracks your macros effortlessly, and even generates grocery lists. Reclaim hours each week, hit your nutrition goals, and boost your productivity. Stop planning, start living.",
-    "hashtags": "#NutriTrack #AIWellness #BusyProfessional #TimeSaving #HealthyHabits #NutritionCoaching",
-    "image_description": "Professional working at a desk with a healthy meal.",
-    "scheduled_date": "2026-05-18",
-    "scheduled_time": "08:30 AM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "Instagram",
-    "text": "Your health goals shouldn't add to your to-do list. NutriTrack makes personalized nutrition simple. Imagine delicious meals planned for you, effortless tracking, and grocery lists ready in seconds. Fuel your ambition without the fuss. Tap the link in bio to transform your routine!",
-    "hashtags": "#NutriTrack #HealthyLifestyle #MealPrepMadeEasy #AIFitness #WellnessJourney #EatSmart",
-    "image_description": "Close-up of a smartphone showing a meal plan, with fresh ingredients in the background.",
-    "scheduled_date": "2026-05-19",
-    "scheduled_time": "12:00 PM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "X (Twitter)",
-    "text": "Tired of generic diet advice? NutriTrack's AI delivers data-driven, personalized nutrition. Get custom meal plans, track macros, and receive smart nudges. Achieve your health goals faster, without the guesswork. #NutriTrack #AINutrition #HealthTech #PersonalizedDiet #SmartEating #BusyLife",
-    "hashtags": "#NutriTrack #AINutrition #HealthTech #PersonalizedDiet #SmartEating #BusyLife",
-    "image_description": "Abstract AI brain with data points and healthy food icons.",
+    "text": "Businesses, your wait is over. My Business is officially LIVE! We're transforming how you manage operations, making efficiency a given, not a goal. Streamline workflows, boost growth, and unlock innovation. Stop juggling tasks, start leading.",
+    "hashtags": "#MyBusinessLaunch #BusinessGrowth #EfficiencyBoost #Innovation #NewPlatform #BusinessSolutions",
+    "image_description": "Modern business dashboard with analytics and workflow automation.",
     "scheduled_date": "2026-05-20",
-    "scheduled_time": "10:00 AM",
-    "post_type": "social_post"
+    "scheduled_time": "09:00 AM EST",
+    "post_type": "Launch Announcement"
   },
   {
-    "platform": "Email",
-    "subject": "Stop Planning, Start Living: How NutriTrack Saves You Hours",
-    "text": "Hi [Name],
-
-How much time do you spend each week thinking about, planning, and preparing healthy meals? For most busy professionals, it's hours they don't have.
-
-NutriTrack changes that. Our users report saving 3-5 hours per week on meal planning and grocery list creation alone. Imagine what you could do with that extra time.
-
-Our AI doesn't just plan meals; it optimizes your entire nutrition workflow. From smart tracking to automated lists, we handle the heavy lifting so you can focus on what matters most.
-
-**Here's how NutriTrack gives you back your time:**
-- **Instant Meal Plans:** No more searching for recipes.
-- **One-Click Grocery Lists:** Your shopping list is ready before you are.
-- **Quick Logging:** Track meals in under 60 seconds.
-
-Ready to experience the difference? It takes just minutes to set up your profile and get your first personalized plan.
-",
-    "cta_text": "See How Much Time You'll Save",
-    "cta_url": "[Link to NutriTrack Features/Benefits Page]",
-    "image_description": "Email banner showing a clock and healthy food.",
+    "platform": "X (Twitter)",
+    "text": "Big news for businesses! My Business is officially LIVE. Simplify operations, drive growth, and innovate faster. Discover how we make your business smarter.",
+    "hashtags": "#MyBusiness #LaunchDay #BusinessSolutions #GrowYourBusiness #Efficiency #Innovation",
+    "image_description": "Abstract graphic representing business growth and efficiency.",
+    "scheduled_date": "2026-05-20",
+    "scheduled_time": "11:00 AM EST",
+    "post_type": "Launch Announcement"
+  },
+  {
+    "platform": "Facebook",
+    "text": "The future of business management is here. My Business officially launches today, empowering you to achieve unprecedented efficiency and growth. Say goodbye to operational headaches and hello to seamless success. Visit our website to explore features and transform your workflow!",
+    "hashtags": "#MyBusiness #BusinessSuccess #OperationalExcellence #FutureOfWork #SmallBusiness #EnterpriseSolutions",
+    "image_description": "Team collaborating seamlessly in a modern office setting.",
+    "scheduled_date": "2026-05-20",
+    "scheduled_time": "01:00 PM EST",
+    "post_type": "Launch Announcement"
+  },
+  {
+    "platform": "Instagram",
+    "text": "Level up your business. My Business is now live! Transform your operations, boost efficiency, and drive growth like never before. Ready to simplify? Link in bio to learn more!",
+    "hashtags": "#MyBusiness #BusinessLaunch #GrowthHacks #Efficiency #Innovation #BusinessTools #StartupLife",
+    "image_description": "Dynamic graphic with upward trending arrows and business icons.",
+    "scheduled_date": "2026-05-20",
+    "scheduled_time": "03:00 PM EST",
+    "post_type": "Launch Announcement"
+  },
+  {
+    "platform": "LinkedIn",
+    "text": "Tired of manual data entry slowing you down? My Business's **Automated Reporting** feature saves you hours each week. Get real-time insights, generate custom reports instantly, and make data-driven decisions faster. Focus on strategy, not spreadsheets.",
+    "hashtags": "#MyBusiness #AutomatedReporting #BusinessIntelligence #TimeSaving #DataDriven #Efficiency",
+    "image_description": "Screenshot of an intuitive automated reporting dashboard.",
+    "scheduled_date": "2026-05-21",
+    "scheduled_time": "10:00 AM EST",
+    "post_type": "Feature Highlight"
+  },
+  {
+    "platform": "X (Twitter)",
+    "text": "Feature Spotlight: My Business's Automated Reporting. Cut report generation time by 80%. Get insights, not just data.",
+    "hashtags": "#MyBusiness #AutomatedReports #BusinessTech #EfficiencyHack #DataInsights",
+    "image_description": "Infographic showing reduction in reporting time.",
+    "scheduled_date": "2026-05-21",
+    "scheduled_time": "01:00 PM EST",
+    "post_type": "Feature Highlight"
+  },
+  {
+    "platform": "Facebook",
+    "text": "Imagine having all your business data organized and analyzed for you, automatically. My Business's Automated Reporting feature does just that. Spend less time compiling and more time acting on crucial insights. See how easy it is to make smarter decisions.",
+    "hashtags": "#MyBusiness #SmartReporting #BusinessAutomation #Productivity #GrowYourBusiness #DataAnalytics",
+    "image_description": "Graphic illustrating data flow and automated analysis.",
+    "scheduled_date": "2026-05-21",
+    "scheduled_time": "04:00 PM EST",
+    "post_type": "Feature Highlight"
+  },
+  {
+    "platform": "Instagram",
+    "text": "Unlock smarter decisions. My Business's Automated Reporting feature means no more manual data drudgery. Get instant insights, beautiful reports, and hours back in your week. Tap the link in bio to see it in action!",
+    "hashtags": "#MyBusiness #BusinessInsights #AutomateYourBusiness #SmartDecisions #TimeSaver #BusinessTips",
+    "image_description": "Visually appealing chart or graph representing business insights.",
+    "scheduled_date": "2026-05-21",
+    "scheduled_time": "06:00 PM EST",
+    "post_type": "Feature Highlight"
+  },
+  {
+    "platform": "LinkedIn",
+    "text": "Most businesses struggle with fragmented tools and siloed data. The result? Wasted time, missed opportunities, and stalled growth. Smart businesses use My Business. Our integrated platform unifies your operations, giving you a single source of truth and a clear path to efficiency.",
+    "hashtags": "#MyBusiness #BusinessChallenges #IntegratedSolutions #OperationalEfficiency #ProblemSolved #GrowthStrategy",
+    "image_description": "Graphic showing disparate tools converging into one platform.",
+    "scheduled_date": "2026-05-22",
+    "scheduled_time": "09:30 AM EST",
+    "post_type": "Problem/Solution"
+  },
+  {
+    "platform": "X (Twitter)",
+    "text": "Fragmented tools killing your productivity? My Business unifies your operations. One platform, total control. Stop the chaos, start growing.",
+    "hashtags": "#MyBusiness #BusinessIntegration #ProductivityHack #SolveProblems #UnifiedPlatform",
+    "image_description": "Simple icon representing a unified platform.",
+    "scheduled_date": "2026-05-22",
+    "scheduled_time": "12:30 PM EST",
+    "post_type": "Problem/Solution"
+  },
+  {
+    "platform": "Facebook",
+    "text": "Are you spending too much time switching between apps and trying to piece together information? That's a common problem, and it's costing your business. My Business offers a comprehensive solution, bringing all your essential functions into one intuitive platform. Reclaim your time and focus on what truly matters.",
+    "hashtags": "#MyBusiness #BusinessPainPoints #StreamlineOperations #EfficiencySolutions #IntegratedSoftware #BusinessGrowth",
+    "image_description": "Image of a person looking relieved after solving a complex problem.",
+    "scheduled_date": "2026-05-22",
+    "scheduled_time": "03:30 PM EST",
+    "post_type": "Problem/Solution"
+  },
+  {
+    "platform": "Instagram",
+    "text": "Feeling overwhelmed by too many business tools? My Business brings everything together. One platform, endless possibilities for efficiency and growth. Simplify your stack, amplify your success. Link in bio to learn more!",
+    "hashtags": "#MyBusiness #BusinessSimplify #AllInOne #EfficiencyGoals #GrowthMindset #BusinessHacks",
+    "image_description": "Minimalist graphic showing multiple elements converging into one central point.",
+    "scheduled_date": "2026-05-22",
+    "scheduled_time": "05:30 PM EST",
+    "post_type": "Problem/Solution"
+  },
+  {
+    "platform": "LinkedIn",
+    "text": "'My Business transformed our project management. We cut reporting time by 50% and improved team collaboration significantly.' � Sarah J., Operations Director. Real results, real impact. See how My Business can empower your team.",
+    "hashtags": "#MyBusiness #CustomerSuccess #Testimonial #BusinessImpact #ProjectManagement #EfficiencyGains",
+    "image_description": "Professional headshot of Sarah J. with a quote overlay.",
     "scheduled_date": "2026-05-23",
-    "scheduled_time": "09:00 AM",
-    "post_type": "email"
-  },
-  {
-    "platform": "LinkedIn",
-    "text": "Your demanding career shouldn't compromise your health. NutriTrack's AI-driven platform delivers personalized nutrition coaching, meal planning, and effortless tracking. Gain clarity, save time, and achieve peak performance. Invest in your well-being.",
-    "hashtags": "#NutriTrack #ExecutiveHealth #Productivity #SmartNutrition #WellnessTech",
-    "image_description": "Professional in a modern office setting, looking confident.",
-    "scheduled_date": "2026-05-25",
-    "scheduled_time": "08:30 AM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "Instagram",
-    "text": "Busy schedule, healthy plate. NutriTrack's AI takes the stress out of eating well. Get custom meal plans, track your progress, and enjoy more free time. Link in bio to start your journey!",
-    "hashtags": "#NutriTrack #Foodie #HealthyEating #NutritionGoals #AIpowered #SelfCare",
-    "image_description": "Overhead shot of a colorful, healthy meal.",
-    "scheduled_date": "2026-05-26",
-    "scheduled_time": "12:00 PM",
-    "post_type": "social_post"
+    "scheduled_time": "10:30 AM EST",
+    "post_type": "Testimonial/Success Story"
   },
   {
     "platform": "X (Twitter)",
-    "text": "Busy pros: Reclaim hours & optimize health. NutriTrack's AI plans meals, tracks macros, generates grocery lists. Simple, smart, effective. #NutriTrack #AIWellness #TimeSaver #Nutrition",
-    "hashtags": "#NutriTrack #AIWellness #TimeSaver #Nutrition",
-    "image_description": "Infographic showing time saved with NutriTrack.",
-    "scheduled_date": "2026-05-27",
-    "scheduled_time": "10:00 AM",
-    "post_type": "social_post"
+    "text": "'Cut reporting time by 50% with My Business!' � Sarah J. That's real impact. What could My Business do for you?",
+    "hashtags": "#MyBusiness #SuccessStory #BusinessResults #Efficiency #CustomerLove",
+    "image_description": "Short, impactful graphic with the quote and My Business logo.",
+    "scheduled_date": "2026-05-23",
+    "scheduled_time": "01:30 PM EST",
+    "post_type": "Testimonial/Success Story"
   },
   {
-    "platform": "Email",
-    "subject": "Achieve Your Nutrition Goals with AI Precision",
-    "text": "Hi [Name],
-
-Generic diet advice rarely works because it isn't *you*. Your body, your lifestyle, your goals – they're unique. NutriTrack understands this.
-
-Our AI isn't just smart; it's *personal*. It learns your preferences, adapts to your progress, and provides guidance that's specifically designed for *your* success. Whether you're aiming for weight loss, muscle gain, or simply better overall health, our data-driven approach ensures you're always on the right path.
-
-**With NutriTrack, you get:**
-- **Precision Nutrition:** Plans optimized for your specific macros and calories.
-- **Progress Tracking:** Visual reports show your journey and celebrate wins.
-- **Adaptive Coaching:** Our AI adjusts as you evolve.
-
-Stop guessing and start achieving. Let NutriTrack be your intelligent partner in health.
-",
-    "cta_text": "Get Your Personalized Plan",
-    "cta_url": "[Link to NutriTrack Pricing/Sign-up Page]",
-    "image_description": "Email banner with AI brain and personalized data.",
-    "scheduled_date": "2026-05-29",
-    "scheduled_time": "09:00 AM",
-    "post_type": "email"
-  },
-  {
-    "platform": "LinkedIn",
-    "text": "What if you could achieve your nutrition goals without adding to your workload? NutriTrack makes it possible. AI-generated meal plans, automated grocery lists, and weekly progress reports. It's time to simplify healthy living.",
-    "hashtags": "#NutriTrack #HealthTech #MealPrepSolutions #AIforHealth #WorkLifeBalance",
-    "image_description": "Infographic showing simplified healthy living with NutriTrack.",
-    "scheduled_date": "2026-06-01",
-    "scheduled_time": "08:30 AM",
-    "post_type": "social_post"
+    "platform": "Facebook",
+    "text": "We love hearing how My Business helps our customers thrive! 'The integration capabilities are a game-changer. Our team is more productive than ever.' � Mark T., CEO. Join businesses like Mark's who are achieving more with My Business.",
+    "hashtags": "#MyBusiness #ClientSuccess #BusinessTransformation #ProductivityBoost #HappyCustomers #BusinessSolutions",
+    "image_description": "Image of Mark T. with his company logo, expressing satisfaction.",
+    "scheduled_date": "2026-05-23",
+    "scheduled_time": "04:30 PM EST",
+    "post_type": "Testimonial/Success Story"
   },
   {
     "platform": "Instagram",
-    "text": "Fuel your success with smart nutrition. NutriTrack provides personalized meal plans and tracking, so you can focus on your career and still hit your health targets. Effortless, effective, essential. Check it out!",
-    "hashtags": "#NutriTrack #FitnessMotivation #HealthyHabits #TechForHealth #BusyLife",
-    "image_description": "Person exercising, with a healthy meal in the foreground.",
-    "scheduled_date": "2026-06-02",
-    "scheduled_time": "12:00 PM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "X (Twitter)",
-    "text": "Stop guessing, start achieving. NutriTrack offers AI-powered personalized nutrition coaching for your demanding lifestyle. Get results, effortlessly. #NutriTrack #HealthGoals #SmartEating #AI",
-    "hashtags": "#NutriTrack #HealthGoals #SmartEating #AI",
-    "image_description": "Chart showing progress towards health goals.",
-    "scheduled_date": "2026-06-03",
-    "scheduled_time": "10:00 AM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "Email",
-    "subject": "Real Results, Real Professionals: NutriTrack Success Stories",
-    "text": "Hi [Name],
-
-Don't just take our word for it. Busy professionals like you are already transforming their health and reclaiming their time with NutriTrack.
-
-"Before NutriTrack, I struggled to eat healthy consistently. Now, my meals are planned, my groceries are listed, and I feel more energized than ever. It's a game-changer!" - Sarah L., Marketing Director
-
-"The AI meal planning is incredibly accurate and convenient. I've hit my fitness goals without sacrificing my demanding work schedule." - Mark T., Software Engineer
-
-These are just a few examples of how NutriTrack is making a real difference. Our platform is built for your success, designed to fit seamlessly into your busy life.
-
-Ready to join them and experience your own success story?
-",
-    "cta_text": "Read More Success Stories",
-    "cta_url": "[Link to NutriTrack Testimonials/Case Studies Page]",
-    "image_description": "Email banner with testimonials and happy users.",
-    "scheduled_date": "2026-06-05",
-    "scheduled_time": "09:00 AM",
-    "post_type": "email"
-  },
-  {
-    "platform": "LinkedIn",
-    "text": "Busy professionals, ever feel like healthy eating is a luxury you can't afford time-wise? NutriTrack changes that. Our AI crafts personalized meal plans, tracks your macros effortlessly, and even generates grocery lists. Reclaim hours each week, hit your nutrition goals, and boost your productivity. Stop planning, start living.",
-    "hashtags": "#NutriTrack #AIWellness #BusyProfessional #TimeSaving #HealthyHabits #NutritionCoaching",
-    "image_description": "Professional working at a desk with a healthy meal.",
-    "scheduled_date": "2026-06-08",
-    "scheduled_time": "08:30 AM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "Instagram",
-    "text": "Your health goals shouldn't add to your to-do list. NutriTrack makes personalized nutrition simple. Imagine delicious meals planned for you, effortless tracking, and grocery lists ready in seconds. Fuel your ambition without the fuss. Tap the link in bio to transform your routine!",
-    "hashtags": "#NutriTrack #HealthyLifestyle #MealPrepMadeEasy #AIFitness #WellnessJourney #EatSmart",
-    "image_description": "Close-up of a smartphone showing a meal plan, with fresh ingredients in the background.",
-    "scheduled_date": "2026-06-09",
-    "scheduled_time": "12:00 PM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "X (Twitter)",
-    "text": "Tired of generic diet advice? NutriTrack's AI delivers data-driven, personalized nutrition. Get custom meal plans, track macros, and receive smart nudges. Achieve your health goals faster, without the guesswork. #NutriTrack #AINutrition #HealthTech #PersonalizedDiet #SmartEating #BusyLife",
-    "hashtags": "#NutriTrack #AINutrition #HealthTech #PersonalizedDiet #SmartEating #BusyLife",
-    "image_description": "Abstract AI brain with data points and healthy food icons.",
-    "scheduled_date": "2026-06-10",
-    "scheduled_time": "10:00 AM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "Email",
-    "subject": "Don't Miss Out: Your Exclusive NutriTrack Offer Ends Soon!",
-    "text": "Hi [Name],
-
-This is a friendly reminder that our special early adopter offer for NutriTrack is coming to an end soon. This is your chance to lock in a discounted rate and gain access to all our premium AI nutrition coaching features.
-
-We're committed to helping busy professionals like you achieve their health and wellness goals without the usual time commitment or complexity. NutriTrack is your all-in-one solution for:
-
-- AI Meal Planning
-- Calorie & Macro Tracking
-- Grocery List Generation
-- Weekly Nutrition Reports
-- Email Coaching Nudges
-
-Don't let this opportunity slip away. Invest in your health and productivity today.
-
-**P.S.** Have questions? Our support team is here to help! Simply reply to this email.
-",
-    "cta_text": "Claim Your Special Offer Now",
-    "cta_url": "[Link to NutriTrack Pricing/Special Offer Page]",
-    "image_description": "Email banner with 'Limited Time Offer' graphic.",
-    "scheduled_date": "2026-06-12",
-    "scheduled_time": "09:00 AM",
-    "post_type": "email"
-  },
-  {
-    "platform": "LinkedIn",
-    "text": "Your demanding career shouldn't compromise your health. NutriTrack's AI-driven platform delivers personalized nutrition coaching, meal planning, and effortless tracking. Gain clarity, save time, and achieve peak performance. Invest in your well-being.",
-    "hashtags": "#NutriTrack #ExecutiveHealth #Productivity #SmartNutrition #WellnessTech",
-    "image_description": "Professional in a modern office setting, looking confident.",
-    "scheduled_date": "2026-06-15",
-    "scheduled_time": "08:30 AM",
-    "post_type": "social_post"
-  },
-  {
-    "platform": "Instagram",
-    "text": "Busy schedule, healthy plate. NutriTrack's AI takes the stress out of eating well. Get custom meal plans, track your progress, and enjoy more free time. Link in bio to start your journey!",
-    "hashtags": "#NutriTrack #Foodie #HealthyEating #NutritionGoals #AIpowered #SelfCare",
-    "image_description": "Overhead shot of a colorful, healthy meal.",
-    "scheduled_date": "2026-06-16",
-    "scheduled_time": "12:00 PM",
-    "post_type": "social_post"
+    "text": "'My Business cut our reporting time by 50%!' � Sarah J. That's the power of smart tools. Ready for your success story? Link in bio!",
+    "hashtags": "#MyBusiness #SuccessStories #ClientLove #BusinessWins #EfficiencyGoals #Testimonial",
+    "image_description": "Visually engaging graphic with Sarah J.'s quote and a call to action.",
+    "scheduled_date": "2026-05-23",
+    "scheduled_time": "06:30 PM EST",
+    "post_type": "Testimonial/Success Story"
   }
 ]
