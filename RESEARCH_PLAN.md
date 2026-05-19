@@ -2,16 +2,16 @@ PROJECT: NutriTrack Early Adopter Marketing Campaign
 ARCHETYPE: MARKETING
 
 KEY QUESTIONS (rank by importance):
-1. What are common marketing strategies for early-stage AI SaaS products in health & wellness?
-2. Who are the main competitors for AI nutrition coaching SaaS, and what are their marketing approaches?
-3. What platforms are most effective for reaching busy urban professionals (25-45) interested in health and wellness?
-4. What kind of content resonates with this target audience regarding nutrition and AI coaching?
+1. What are effective digital marketing strategies for early-stage AI SaaS products in health & wellness, specifically targeting busy professionals?
+2. Who are the main competitors in the AI nutrition coaching space, and what are their marketing approaches, pricing, and key features?
+3. What social media platforms and content types are most effective for reaching busy urban professionals (25-45) interested in health and wellness?
+4. What messaging and value propositions resonate most with this target audience regarding nutrition coaching and time-saving solutions?
 
 SOURCES TO CHECK:
-- Primary: Industry reports on health tech marketing, AI SaaS marketing case studies.
-- Secondary: Reddit, LinkedIn, G2.com, Trustpilot for competitor reviews and customer pain points.
-- Competitive: Websites of direct competitors, their social media presence.
+- Primary: Competitor websites, social media profiles (LinkedIn, Instagram, Facebook), app store reviews (for customer pain points).
+- Secondary: Industry reports on health tech marketing, articles on AI SaaS GTM strategies, marketing blogs (e.g., HubSpot, Neil Patel), Reddit/Hacker News for early adopter insights.
+- Competitive: Search for "AI nutrition coach", "meal planning app for professionals", "calorie tracker AI".
 
-DELIVERABLE: CAMPAIGN_STRATEGY.md
+DELIVERABLE: Research summary in a structured markdown file addressing the key questions, to be used for CAMPAIGN_STRATEGY.md.
 
-SUCCESS CRITERIA: A comprehensive CAMPAIGN_STRATEGY.md that provides actionable guidance for the marketing team to launch an early adopter campaign, directly supporting the 500 paying users goal.
+SUCCESS CRITERIA: Comprehensive answers to all key questions, providing actionable insights for the marketing campaign strategy.
